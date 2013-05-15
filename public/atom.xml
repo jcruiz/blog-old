@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2013-05-14T16:45:23-07:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[The Other Radio]]></title>
+  <link href="http://young-bastion-9487.herokuapp.com//atom.xml" rel="self"/>
+  <link href="http://young-bastion-9487.herokuapp.com//"/>
+  <updated>2013-05-14T22:12:13-07:00</updated>
+  <id>http://young-bastion-9487.herokuapp.com//</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Juan Camilo Ruiz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
