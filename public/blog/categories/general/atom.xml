@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: general | The Other Radio]]></title>
+  <link href="http://young-bastion-9487.herokuapp.com//blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://young-bastion-9487.herokuapp.com//"/>
+  <updated>2013-09-17T00:01:49-07:00</updated>
+  <id>http://young-bastion-9487.herokuapp.com//</id>
+  <author>
+    <name><![CDATA[Juan Camilo Ruiz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Back to Blogging Welcome]]></title>
+    <link href="http://young-bastion-9487.herokuapp.com//blog/2013/08/28/back-to-blogging-welcome/"/>
+    <updated>2013-08-28T13:30:00-07:00</updated>
+    <id>http://young-bastion-9487.herokuapp.com//blog/2013/08/28/back-to-blogging-welcome</id>
+    <content type="html"><![CDATA[<p>I started my first <a href="http://oracleradio.blogspot.com">blog</a> 6 years ago, with the objective to share technical information about Oracle development tools in Spanish. A couple of years after creating my Spanish blog I decided to start <a href="http://blogs.oracle.com/jruiz">another one</a> in English too.</p>
+
+<p>As a non-native English speaker, blogging helps me to practice my grammar, punctuation, etc; at the same time that provides me with a tool to share with others useful information that every now and then I found during my work, geek life.</p>
+
+<p>In recent months I transitioned to a new job in the mobile cloud space, with a company called Moovweb. Many new challenges and lots of learning can perfectly described my ride so far and there is still more to learn , more to experiment, to contribute and to learn from others.</p>
+
+<p>The views of this blog are entirely personnal feel free to share your comments and any feedback that yo might have.</p>
+
+<p>Juan Camilo</p>
+]]></content>
+  </entry>
+  
+</feed>
