@@ -4,7 +4,7 @@
   <title><![CDATA[The Other Radio]]></title>
   <link href="http://young-bastion-9487.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://young-bastion-9487.herokuapp.com//"/>
-  <updated>2013-09-17T08:25:28-07:00</updated>
+  <updated>2013-09-17T08:33:02-07:00</updated>
   <id>http://young-bastion-9487.herokuapp.com//</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -12,5 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Blogging Like a Hacker]]></title>
+    <link href="http://young-bastion-9487.herokuapp.com//blog/2013/08/30/blogging-like-a-hacker/"/>
+    <updated>2013-08-30T13:30:00-07:00</updated>
+    <id>http://young-bastion-9487.herokuapp.com//blog/2013/08/30/blogging-like-a-hacker</id>
+    <content type="html"><![CDATA[<p>My old blogs used well known blogging engines: blogger and MovableType. For years blogger has been able to keep up with trends &ndash; in my opinion always catching up. However, I didn&rsquo;t want to simply create a new blog on blogger; something was just not right.</p>
+
+<p>One day a technical blog cought my attention because of its look and feel and nice caligraphy. It was <a href="http://octopress.org/">Octopress</a> which was created under the premise that is a blogging framework for hackers.</p>
+
+<p>So, what does it reallly means? Let me give you more context info:</p>
+
+<!--more-->
+
+
+<p>I come from the Java EE world &ndash; so IDEs, frameworks, installing appication servers, compiling and running &ndash; are all very known to me. However when I joined <a href="http://moovweb.com">Moovweb</a> I realized something that I had been seeing for a while: the new companies are not sold by Java or .Net anymore.</p>
+
+<p>In other words, outside of the traditional corporate world you as a developer, wont be talking anymore about enterprise java beans (EJBs) and java server faces (JSF) and instead, words in your dictionary sound something like Go, JavaScript, Ruby, HTML 5, CSS3, Sass, Bootstrap, Angular, etc&hellip;.</p>
+
+<p>The new era of enterprise software is already here and it is rapidly taking over the traditional way that, not too long ago for some of us, were the latest trends in programming: objects oriented, MVC, JSPs (specially) &hellip;. and I thought that at that point I knew it all.</p>
+
+<p>So how all of the above connects with blogging? Well, I just told you about my developer journey and where I&rsquo;m right now so, as part of my new life:</p>
+
+<ul>
+<li>I&rsquo;m getting use to not having and IDE or ultra editor to create Java applications or blog posts.</li>
+<li>I&rsquo;m changing Java systax for Tritium, Uranium, Javascript, markdown and Sass.</li>
+<li>I&rsquo;m getting use to using GitHub for pushing my code and also pushing my entire blog.</li>
+<li>And, finally I&rsquo;m using Heroku to host this blog that you are reading right now</li>
+</ul>
+
+
+<p>So yeah, this is one of my new hacking projects&hellip;.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Back to Blogging - Welcome]]></title>
+    <link href="http://young-bastion-9487.herokuapp.com//blog/2013/08/28/back-to-blogging-welcome/"/>
+    <updated>2013-08-28T13:30:00-07:00</updated>
+    <id>http://young-bastion-9487.herokuapp.com//blog/2013/08/28/back-to-blogging-welcome</id>
+    <content type="html"><![CDATA[<p>I started my first <a href="http://oracleradio.blogspot.com">blog</a> 6 years ago, with the objective to share technical information about Oracle development tools in Spanish. A couple of years after that I started <a href="http://blogs.oracle.com/jruiz">another one</a> in English too as part of my previous job.</p>
+
+<p>As a non-native English speaker, blogging helps me to practice my grammar, punctuation, etc; I&rsquo;m a true believer in collective knowledge sharing and how the more knowledge I share, the more knowledge I could gather which is another great thing about blogging.</p>
+
+<p>In recent months I transitioned to a new job in the mobile cloud space, with a company called <a href="http://moovweb.com">Moovweb</a>. Many new challenges and lots of learning can perfectly described my ride so far and there is still more to learn, more to experiment, to contribute, and to learn from others.</p>
+
+<p>The views of this blog are entirely personnal, feel free to share your comments and any feedback you might have.</p>
+
+<p>Juan Camilo</p>
+]]></content>
+  </entry>
   
 </feed>

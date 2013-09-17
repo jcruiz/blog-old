@@ -4,14 +4,14 @@ title: "Blogging Like a Hacker"
 date: 2013-08-30 13:30
 comments: true
 categories: [hacking, octopress]
-published: false 
+published: true 
 ---
 My old blogs used well known blogging engines: blogger and MovableType. For years blogger has been able to keep up with trends - in my opinion always catching up. However, I didn't want to simply create a new blog on blogger; something was just not right.
 
 One day a technical blog cought my attention because of its look and feel and nice caligraphy. It was [Octopress](http://octopress.org/) which was created under the premise that is a blogging framework for hackers.
 
 So, what does it reallly means? Let me give you more context info:
-
+<!--more-->
 I come from the Java EE world - so IDEs, frameworks, installing appication servers, compiling and running - are all very known to me. However when I joined [Moovweb](http://moovweb.com) I realized something that I had been seeing for a while: the new companies are not sold by Java or .Net anymore.
 
 In other words, outside of the traditional corporate world you as a developer, wont be talking anymore about enterprise java beans (EJBs) and java server faces (JSF) and instead, words in your dictionary sound something like Go, JavaScript, Ruby, HTML 5, CSS3, Sass, Bootstrap, Angular, etc....

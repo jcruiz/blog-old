@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | The Other Radio]]></title>
   <link href="http://young-bastion-9487.herokuapp.com//blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://young-bastion-9487.herokuapp.com//"/>
-  <updated>2013-09-17T00:01:49-07:00</updated>
+  <updated>2013-09-17T08:33:02-07:00</updated>
   <id>http://young-bastion-9487.herokuapp.com//</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -23,6 +23,9 @@
 <p>One day a technical blog cought my attention because of its look and feel and nice caligraphy. It was <a href="http://octopress.org/">Octopress</a> which was created under the premise that is a blogging framework for hackers.</p>
 
 <p>So, what does it reallly means? Let me give you more context info:</p>
+
+<!--more-->
+
 
 <p>I come from the Java EE world &ndash; so IDEs, frameworks, installing appication servers, compiling and running &ndash; are all very known to me. However when I joined <a href="http://moovweb.com">Moovweb</a> I realized something that I had been seeing for a while: the new companies are not sold by Java or .Net anymore.</p>
 
