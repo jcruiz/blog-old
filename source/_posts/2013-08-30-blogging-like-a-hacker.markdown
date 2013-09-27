@@ -10,7 +10,7 @@ My old blogs used well known blogging engines: blogger and MovableType. For year
 
 One day a technical blog cought my attention because of its look and feel and nice caligraphy. It was [Octopress](http://octopress.org/) which was created under the premise that is a blogging framework for hackers.
 
-So, what does it reallly means? Let me give you more context info:
+So, what does it reallly mean? Let me give you more context info:
 <!--more-->
 I come from the Java EE world - so IDEs, frameworks, installing appication servers, compiling and running - are all very known to me. However when I joined [Moovweb](http://moovweb.com) I realized something that I had been seeing for a while: the new companies are not sold by Java or .Net anymore.
 
