@@ -4,7 +4,7 @@
   <title><![CDATA[Category: installation | The Other Radio]]></title>
   <link href="http://young-bastion-9487.herokuapp.com//blog/categories/installation/atom.xml" rel="self"/>
   <link href="http://young-bastion-9487.herokuapp.com//"/>
-  <updated>2014-02-19T11:54:03-08:00</updated>
+  <updated>2014-02-19T11:57:58-08:00</updated>
   <id>http://young-bastion-9487.herokuapp.com//</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p>Facing an interesting task the other day at work. Install <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> in a RHEL6.3 machine. This seems like a pretty standard task to be perfomed.</p>
 
 <p>Interesting enough, Google is not longer supporting RedHat-based linux flavors such as CentOS or Fedora. This to me is actually shocking at the same time that compleately puts my engenieering ego in the spot.</p>
+
+<!--more-->
+
 
 <p>After googling around for hours I managed to get it working. Thank to <a href="http://chrome.richardlloyd.org.uk/">Richar Lloyd</a> and <a href="http://www.tecmint.com/install-google-chrome-on-redhat-centos-fedora-linux/">Narad Shrestha</a>, I was able to see the light at the end of the tunnel.</p>
 

@@ -11,7 +11,7 @@ It's been almost 4 years that I cut cable tv at home. For some, it could sound a
 
 ##The On-demand Content Era
 If I have to admit something that I've missed in these years, maybe that is some of the live events like sports, the oscars, season finales, etc. Yet most of the times these are all aired on public tv channels. That in my mind means: not need to pay for a service where most of the time is spent by watching the channels that are already free.
-
+<!--more-->
 In most cases, at least in the US, it's not hard to find a free official streaming services for the majority of free channels. I believe that media networks have understood that at least by publishing a free stream online, they can regain control over publishing advertising.
 
 No more commercials! Definitely that's something that I don't miss at all. I still "consume" advertising but not to the extent that I used to when I had cable TV. After having Netflix, Hulu and, XBMC I compleately moved away from being expose to tons of advertising, now I decide what and when to consume advertising.

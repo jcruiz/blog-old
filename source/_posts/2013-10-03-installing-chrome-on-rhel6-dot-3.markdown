@@ -9,7 +9,7 @@ categories: [installation, enterprise]
 Facing an interesting task the other day at work. Install [Google Chrome](https://www.google.com/intl/en/chrome/browser/) in a RHEL6.3 machine. This seems like a pretty standard task to be perfomed. 
 
 Interesting enough, Google is not longer supporting RedHat-based linux flavors such as CentOS or Fedora. This to me is actually shocking at the same time that compleately puts my engenieering ego in the spot.
-
+<!--more-->
 After googling around for hours I managed to get it working. Thank to [Richar Lloyd](http://chrome.richardlloyd.org.uk/) and [Narad Shrestha](http://www.tecmint.com/install-google-chrome-on-redhat-centos-fedora-linux/), I was able to see the light at the end of the tunnel.
 
 So follow up the above link from Naradm, then it will prompt you to upgrade the entire system to a new version in order to run chrome, which really is ridiculous - instead just upgrade nss by doing:
