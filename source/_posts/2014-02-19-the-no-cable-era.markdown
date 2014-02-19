@@ -26,9 +26,9 @@ After buying my first [Raspberry PI](http://raspberrypi.org), I was able to inst
 So far my favorite plugins are:
 
 +   LiveStreams - I'm able to access football worlwide. Checkout [www.pluginsxbmc.com](www.pluginsxbmc.com)
-+   Bluecop - It bring the nice HD streaming from ESPN 3 (Tennis opens, woot!)
++   Bluecop - Brings the nice HD streaming from ESPN 3 (Tennis opens, woot!)
 +   P2P Stream/AceStreams - In combination with Livestreams, you could access many HD streams for live sports.
-+   FTV - I can access CBS,NBC, CNBC streamings in the US as well as many public channels
++   FTV - I access CBS,NBC, CNBC streamings in the US as well as many public channels
 
 This in combination with Netflix, Hulu and soon HBO Go, allow me to have the content I want, whenever I want. For any news and world affairs Internet both written and listened (TuneIn or Sticher) are my best friends.
 
