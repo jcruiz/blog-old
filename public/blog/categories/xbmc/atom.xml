@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: XBMC | The Other Radio]]></title>
+  <link href="http://young-bastion-9487.herokuapp.com//blog/categories/xbmc/atom.xml" rel="self"/>
+  <link href="http://young-bastion-9487.herokuapp.com//"/>
+  <updated>2014-02-19T00:46:45-08:00</updated>
+  <id>http://young-bastion-9487.herokuapp.com//</id>
+  <author>
+    <name><![CDATA[Juan Camilo Ruiz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The No-Cable Era: A geek's perspective]]></title>
+    <link href="http://young-bastion-9487.herokuapp.com//blog/2014/02/19/the-no-cable-era/"/>
+    <updated>2014-02-19T00:40:00-08:00</updated>
+    <id>http://young-bastion-9487.herokuapp.com//blog/2014/02/19/the-no-cable-era</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been almost 4 years without cable at home. For some, it could sound as if I&rsquo;m being cheap but the reality is that I keep on finding more and more people that decide to stop paying for cable as we don&rsquo;t really see the benefit from such service.</p>
+
+<h2>The On-demand Content Era</h2>
+
+<p>If I have to admit something that I&rsquo;ve missed maybe it&rsquo;s some live events that most of the times are aired on the public tv channels. Which means that there is not need to pay for a service where most of the time is spent by watching the channels that are already free.</p>
+
+<p>However, in most cases, at least in the US, it&rsquo;s not hard to find a free official streaming service for the majority of public channels. Media networks have understand that at least by re-gaining control over in the Internet by publishing a free stream &ndash; and that is being able to still push advertising through these channels.</p>
+
+<p>No more commercials! Definitely something that don&rsquo;t miss at all, I still &ldquo;consume&rdquo; commercials but never to the level that I used to when I had cable TV. After having Netflix, Hulu and XBMC I compleately moved away from being expose to tons of advertising, now I decide what and when to consume advertising.</p>
+
+<h2>TV for Geeks at Home</h2>
+
+<p>Another reason why I don&rsquo;t pay for cable is because, I soon realized that even if I had 200, 300 or 50 channels available, 90% of my time I would spend it on the same 5 channels. In my case, those are all sports related channels. But my biggest quest since comming into the US has been to find good quality Football channel.</p>
+
+<p>Looking for many alternatives, a friend of mine pointed me to the <a href="http://xbmc.org">XBMC</a> project that offers a full blown open source media server, by which you can access content located within a network.</p>
+
+<p>After buying my first <a href="http://raspberrypi.org">Raspberry PI</a>, I was able to install the XBMC version that has been ported to this hardware called &ndash; <a href="http://www.raspbmc.com">Raspbmc</a>. Now using the some XBMC plugins, I&rsquo;m able to access a lot of on-demand content and output it direclty to my TV via HDMI.</p>
+
+<p>So far my favorite plugins are:</p>
+
+<ul>
+<li>LiveStreams &ndash; I&rsquo;m able to access football worlwide. Checkout <a href="www.pluginsxbmc.com">www.pluginsxbmc.com</a></li>
+<li>Bluecop &ndash; It bring the nice HD streaming from ESPN 3 (Tennis opens, woot!)</li>
+<li>P2P Stream/AceStreams &ndash; In combination with Livestreams, you could access many HD streams for live sports.</li>
+<li>FTV &ndash; I can access CBS,NBC, CNBC streamings in the US as well as many public channels</li>
+</ul>
+
+
+<p>This in combination with Netflix, Hulu and soon HBO Go allow me to have the content I want, whenever I want. For any news and world affairs Internet both written and listen (TuneIn or Sticher) are my best friends.</p>
+
+<h2>Do you still pay for Cable? Why?</h2>
+]]></content>
+  </entry>
+  
+</feed>
