@@ -12,9 +12,8 @@ group :development do
   gem 'sass-globbing', '~> 1.0.0'
   gem 'rubypants', '~> 0.2.0'
   gem 'rb-fsevent', '~> 0.9'
-  #This line seems that is not needed anymore for heroku
-  # gem 'stringex', '~> 1.4.0'
   gem 'liquid', '~> 2.3.0'
 end
 
+gem 'stringex', '~> 1.4.0'
 gem 'sinatra', '~> 1.4.2'
