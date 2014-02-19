@@ -50,7 +50,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [custom/asides/about.html, asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/googleplus.html]
+default_asides: [custom/asides/lastfm.html,custom/asides/about.html, asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/googleplus.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -97,4 +97,9 @@ disqus_show_comment_count: false
 google_analytics_tracking_id: UA-44281567-1
 
 # Facebook Like
-facebook_like: true
+facebook_like: false
+
+#Last.fm
+lastfm_apikey: a471deaebef3a750af5db427125a6d2a
+lastfm_user: jcruiz-co
+lastfm_count: 5
