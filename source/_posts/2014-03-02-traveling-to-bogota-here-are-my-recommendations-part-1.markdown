@@ -18,15 +18,15 @@ If you have a smarthphone with an active data plan on your phone. I encourage yo
 
 I'm going to start covering those areas in the city that are located in the northen part:
 
-###Usaquen: What used to be a small town located in the outskirts of the city, it's now a neighborhood. Though it is one of the most vibrant areas where you can find great restaurants and bars. You could literally try different things in every visit. In there I recommend:
+###Usaquen: What used to be a small town located in the outskirts of the city, it's now a neighborhood. Though it is one of the most vibrant areas where you can find great restaurants and bars. You could literally try different things in every visit. Recommendations:
 * Antara: Peruvian food.
 * 80 sillas: Fusion international.
 * Abasto: Organic/colombian food, great for brunch.
 * Bogota Beer company: Drinks, social fun times.
 
-Usaquen has a famous flea market on sunday where you can experience the great diversity. Also right next to Usaquen there is a nice shopping mall-Hacienda Santa Barbara. 
+Usaquen has a famous flea market on Sundays where you can experience the great diversity of Bogota and buy really good handcrafts and souvenirs. Also right next to Usaquen there is a nice shopping mall-Hacienda Santa Barbara. 
 
-###Parque 93: A park in the north that is surrounded by nice bars and restaurants A great place to  an option to dine and then party. Recommendations:
+###Parque 93: A park in the north that is surrounded by nice bars and restaurants. A great place to  for a dinner + drinks/party plan. Recommendations:
 * Salto del Angel: Dinner + party
 * Sagal: Steak house
 * Bogota Beer company
