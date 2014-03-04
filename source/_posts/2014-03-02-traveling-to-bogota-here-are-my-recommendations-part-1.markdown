@@ -19,6 +19,9 @@ If you have a smarthphone with an active data plan on your phone. I encourage yo
 I'm going to start covering those areas in the city that are located in the northen part:
 
 ###Usaquen: What used to be a small town located in the outskirts of the city, it's now a neighborhood. Though it is one of the most vibrant areas where you can find great restaurants and bars. You could literally try different things in every visit. Recommendations:
+{% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/usaquen_zpsbfe09de2.jpg %}
+
+
 * Antara: Peruvian food.
 * 80 sillas: Fusion international.
 * Abasto: Organic/colombian food, great for brunch.
@@ -27,6 +30,8 @@ I'm going to start covering those areas in the city that are located in the nort
 Usaquen has a famous flea market on Sundays where you can experience the great diversity of Bogota and buy really good handcrafts and souvenirs. Also right next to Usaquen there is a nice shopping mall-Hacienda Santa Barbara. 
 
 ###Parque 93: A park in the north that is surrounded by nice bars and restaurants. A great place to  for a dinner + drinks/party plan. Recommendations:
+{% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/93_zps71f8cfa8.jpg %}
+
 * Salto del Angel: Dinner + party
 * Sagal: Steak house
 * Bogota Beer company
@@ -38,6 +43,7 @@ Usaquen has a famous flea market on Sundays where you can experience the great d
 * Gaira Cafe: Northern Colombian food + party
 
 ###Zona T: Is Bogota's version of San Francisco's Union Square. Upscale shopping + tons of alternatives to eat and party. Recommendations:
+{% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonaT_zps0aaf280e.jpg %}
 
 * La Plaza de Andres: Great food from all over Colombia
 * 14 Incas: Peruvian
@@ -51,9 +57,13 @@ Usaquen has a famous flea market on Sundays where you can experience the great d
 
 
 ###Zona G: Established as one of the areas with the best restaurants in the city. Recommendations:
+{% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonag_zps890c7f10.jpg %}
+
 * Astrid y Gaston: Peruvian
 * La Bagatelle: French
 * La Cigale: Frech
 * La Biferia: Steakhouse
 * Masa: Bakery, coffee
 * Nazca: Peruvian
+
+Part 2 with other areas of the city comming up soon...
