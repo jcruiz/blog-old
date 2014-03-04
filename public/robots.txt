@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://young-bastion-9487.herokuapp.com//sitemap.xml 
+Sitemap: http://jcruiz.co/sitemap.xml 
