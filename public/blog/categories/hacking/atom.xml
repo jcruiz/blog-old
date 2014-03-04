@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hacking | The Other Radio]]></title>
-  <link href="http://young-bastion-9487.herokuapp.com//blog/categories/hacking/atom.xml" rel="self"/>
-  <link href="http://young-bastion-9487.herokuapp.com//"/>
-  <updated>2014-03-02T22:43:34-08:00</updated>
-  <id>http://young-bastion-9487.herokuapp.com//</id>
+  <link href="http://jcruiz.co/blog/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://jcruiz.co/"/>
+  <updated>2014-03-03T22:30:39-08:00</updated>
+  <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blogging Like a Hacker]]></title>
-    <link href="http://young-bastion-9487.herokuapp.com//blog/2013/08/30/blogging-like-a-hacker/"/>
+    <link href="http://jcruiz.co/blog/2013/08/30/blogging-like-a-hacker/"/>
     <updated>2013-08-30T13:30:00-07:00</updated>
-    <id>http://young-bastion-9487.herokuapp.com//blog/2013/08/30/blogging-like-a-hacker</id>
+    <id>http://jcruiz.co/blog/2013/08/30/blogging-like-a-hacker</id>
     <content type="html"><![CDATA[<p>My old blogs used well known blogging engines: blogger and MovableType. For years blogger has been able to keep up with trends &ndash; in my opinion always catching up. However, I didn&rsquo;t want to simply create a new blog on blogger; something was just not right.</p>
 
 <p>One day a technical blog cought my attention because of its look and feel and nice caligraphy. It was <a href="http://octopress.org/">Octopress</a> which was created under the premise that is a blogging framework for hackers.</p>

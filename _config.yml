@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://young-bastion-9487.herokuapp.com/
+url: http://jcruiz.co
 title: The Other Radio
 subtitle: A Colombian geeking out in the Silicon Valley
 author: Juan Camilo Ruiz
@@ -78,8 +78,8 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
-googleplus_hidden: false
+googleplus_user: +JuanCamiloRuiz
+googleplus_hidden: true
 
 # Pinboard
 pinboard_user:
