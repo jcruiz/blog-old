@@ -29,7 +29,7 @@ I'm going to start covering those areas in the city that are located in the nort
 
 Usaquen has a famous flea market on Sundays where you can experience the great diversity of Bogota and buy really good handcrafts and souvenirs. Also right next to Usaquen there is a nice shopping mall-Hacienda Santa Barbara. 
 
-###Parque 93: A park in the north that is surrounded by nice bars and restaurants. A great place to  for a dinner + drinks/party plan. Recommendations:
+###Parque 93: A park in the north that is surrounded by nice bars and restaurants. A great place to go for dinner + drinks/party. Recommendations:
 {% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/93_zps71f8cfa8.jpg %}
 
 * Salto del Angel: Dinner + party
