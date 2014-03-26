@@ -1,37 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://jcruiz.co/blog/2013/05/16/firing-this-blog-up/</loc>
+        <lastmod>2014-03-26T00:15:16-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://jcruiz.co/blog/2013/08/28/back-to-blogging-welcome/</loc>
-        <lastmod>2014-03-04T12:23:51-08:00</lastmod>
+        <lastmod>2014-03-26T00:15:16-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/2013/08/30/blogging-like-a-hacker/</loc>
-        <lastmod>2014-03-04T12:23:51-08:00</lastmod>
+        <lastmod>2014-03-26T00:15:16-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/</loc>
-        <lastmod>2014-03-04T12:23:51-08:00</lastmod>
+        <lastmod>2014-03-26T00:15:16-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/2014/02/19/the-no-cable-era/</loc>
-        <lastmod>2014-03-04T12:23:51-08:00</lastmod>
+        <lastmod>2014-03-26T00:15:16-07:00</lastmod>
     </url>
     <url>
         <loc>
             http://jcruiz.co/blog/2014/03/02/traveling-to-bogota-here-are-my-recommendations-part-1/
         </loc>
-        <lastmod>2014-03-04T16:14:23-08:00</lastmod>
+        <lastmod>2014-03-26T00:15:16-07:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://jcruiz.co/blog/2014/03/26/ruby-rvms-and-mac-os-x-update2-mavericks-issues/
+        </loc>
+        <lastmod>2014-03-26T00:30:03-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/archives/</loc>
-        <lastmod>2014-03-04T16:14:23-08:00</lastmod>
+        <lastmod>2014-03-26T00:30:03-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/</loc>
-        <lastmod>2014-03-04T16:14:23-08:00</lastmod>
+        <lastmod>2014-03-26T00:30:03-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/robots.txt</loc>
-        <lastmod>2014-03-04T12:23:51-08:00</lastmod>
+        <lastmod>2014-03-26T00:15:16-07:00</lastmod>
     </url>
 </urlset>
