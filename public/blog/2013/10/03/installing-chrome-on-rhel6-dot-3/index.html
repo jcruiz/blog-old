@@ -1,118 +1,45 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Installing Chrome on RHEL6.3 - The Other Radio</title>
-  <meta name="author" content="Juan Camilo Ruiz">
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta charset="utf-8">
+	<title>Installing Chrome on RHEL6.3 | The Other Radio</title>
 
-  
-  <meta name="description" content="Facing an interesting task the other day at work. Install Google Chrome in a RHEL6.3 machine. This seems like a pretty standard task to be perfomed. &hellip;">
-  
+	<meta name="author" content="Juan Camilo Ruiz">
+	
+	<meta name="description" content="The Other Radio 03 Oct 2013 Installing Chrome on RHEL6.3 Facing an interesting task the other day at work. Install Google Chrome in a RHEL6.3 &hellip;">
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  
-  <link rel="canonical" href="http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="The Other Radio" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-44281567-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
+	<link href="/atom.xml" rel="alternate" title="The Other Radio" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400" />
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">The Other Radio</a></h1>
+<body class="post-template">
+  <main class="content" role="main"><article class="post">
   
-    <h2>A Colombian geeking out in the Silicon Valley</h2>
-  
-</hgroup>
+	<header class="post-header">
+		<a id="blog-logo" href="/">The Other Radio</a>
+	</header>
+	<span class="post-meta">03 Oct 2013</span>
+	<h1 class="post-title">Installing Chrome on RHEL6.3</h1>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:jcruiz.co" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
+	<section class="post-content">
+		<p>Facing an interesting task the other day at work. Install <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> in a RHEL6.3 machine. This seems like a pretty standard task to be perfomed. </p>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article class="hentry" role="article">
-  
-  <header>
-    
-      <h1 class="entry-title">Installing Chrome on RHEL6.3</h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-03T00:04:00-07:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-<div class="entry-content"><p>Facing an interesting task the other day at work. Install <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> in a RHEL6.3 machine. This seems like a pretty standard task to be perfomed.</p>
-
-<p>Interesting enough, Google is not longer supporting RedHat-based linux flavors such as CentOS or Fedora. This to me is actually shocking at the same time that compleately puts my engenieering ego in the spot.</p>
-
+<p>Interesting enough, Google is not longer supporting RedHat-based linux flavors such as CentOS or Fedora. This to me is actually shocking at the same time that compleately puts my engenieering ego in the spot.
 <!--more-->
+After googling around for hours I managed to get it working. Thank to <a href="http://chrome.richardlloyd.org.uk/">Richar Lloyd</a> and <a href="http://www.tecmint.com/install-google-chrome-on-redhat-centos-fedora-linux/">Narad Shrestha</a>, I was able to see the light at the end of the tunnel.</p>
 
-
-<p>After googling around for hours I managed to get it working. Thank to <a href="http://chrome.richardlloyd.org.uk/">Richar Lloyd</a> and <a href="http://www.tecmint.com/install-google-chrome-on-redhat-centos-fedora-linux/">Narad Shrestha</a>, I was able to see the light at the end of the tunnel.</p>
-
-<p>So follow up the above link from Naradm, then it will prompt you to upgrade the entire system to a new version in order to run chrome, which really is ridiculous &ndash; instead just upgrade nss by doing:</p>
+<p>So follow up the above link from Naradm, then it will prompt you to upgrade the entire system to a new version in order to run chrome, which really is ridiculous - instead just upgrade nss by doing:</p>
 
 <p><code>yum update nss</code></p>
 
@@ -120,135 +47,81 @@
 
 <p>Also as a recommendation, enter your RHN credential directly during installation, as this is the only way to get YUM up and running without a problem. Otherwhise you will get stuck trying to run commands in the terminal + searching for the right wizard that allows you to register you machine into the RHN.</p>
 
-<p>Mission accomplished</p>
-</div>
+<p>Mission accomplished </p>
 
+	</section>
 
-  <footer>
-    <p class="meta">
-      
-  
-
-<span class="byline author vcard">Posted by <span class="fn">Juan Camilo Ruiz</span></span>
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-03T00:04:00-07:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2013</time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/enterprise/'>enterprise</a>, <a class='category' href='/blog/categories/installation/'>installation</a>
-  
-</span>
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/" data-via="juanca" data-counturl="http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/" >Tweet</a>
-  
-  
-  
-</div>
-
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2013/08/30/blogging-like-a-hacker/" title="Previous Post: Blogging Like a Hacker">&laquo; Blogging Like a Hacker</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2014/02/19/the-no-cable-era/" title="Next Post: The No-Cable Era: A geek's perspective">The No-Cable Era: A geek's perspective &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
-
-</div>
-
-<aside class="sidebar">
-  
-    <section>
-  <h1>About Me</h1>
-  <p>I'm a technologist working as a Product Manager at <a href="http://moovweb.com">Moovweb</a>, Colombian living in the silicon valley.
-  	I enjoy blogging about technical topics that are part of my day to day. The views expressed on this blog are personal.</br>
-  	I hope you enjoy the blog and I encourage to drop me a line with comments or feedback which is how bloggers know that there is someone out there!</p>
-  	<p>Find me on <a href = "http://www.linkedin.com/in/juancamiloruiz/">linkedIn</a> for more information</p>
-</section>
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/07/15/en-la-copa/">En La Copa, Brasil Demuestra Su Potencial Una Vez Más</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/26/ruby-rvms-and-mac-os-x-update2-mavericks-issues/">Ruby RVMs and Mac OS X Update2 (Mavericks) Issues</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/02/traveling-to-bogota-here-are-my-recommendations-part-1/">Traveling to Bogota? Here Are My Recommendations Part 1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/19/the-no-cable-era/">The No-Cable Era: A Geek's Perspective</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/">Installing Chrome on RHEL6.3</a>
-      </li>
-    
-  </ul>
-</section>
-<section>
-  <h1>@Juanca's Twitter</h1>
-<a class="twitter-timeline" href="https://twitter.com/juanca" data-widget-id="382388972950806528">Tweets by @juanca</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</section>
-  
-</aside>
-
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Juan Camilo Ruiz -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+  <footer class="post-footer">
+  <section class="author">
+    <h4>Juan Camilo Ruiz</h4>
+    <p></p>
+  </section>
+  <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?text=Installing Chrome on RHEL6.3&amp;url=http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+    </a>
+  </section>
 </footer>
+  <hr>
   
+    <div class="share">
+</div>
+
+  
+  
+</article></main>
+  <footer class="site-footer"><a class="subscribe icon-feed" href="http://jcruiz.co/atom.xml"><span class="tooltip">Subscribe!</span></a>
+
+
+<div class="inner">
+
+
+Follow me on
+
+
+
+<a class="social twitter" href="http://twitter.com/juanca" title="Twitter">Twitter</a>
+
+
+
+<a class="social github" href="http://github.com/jcruiz" title="GitHub">GitHub</a>
+
+
+
+<a class="social google_plus" href="http://plus.google.com/+JuanCamiloRuiz" title="Google+">Google+</a>
+
+
+<section class="copyright">All content copyright <a href="/">Juan Camilo Ruiz</a> © 2014 • All rights reserved.</section>
+
+<section class="poweredby">Casper theme by <a class="icon-ghost" href="http://tryghost.org">Ghost</a> &amp; Published with <a href="http://octopress.org">Octopress</a></section>
+
+</div>
+</footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="//yandex.st/highlightjs/7.3/highlight.min.js"></script>  
+<script>hljs.initHighlightingOnLoad()</script>
 
 
 
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-44281567-1']);
+		_gaq.push(['_trackPageview']);
 
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 </body>
