@@ -15,6 +15,7 @@ group :development do
   gem 'liquid', '~> 2.3.0'
   gem 'kramdown'
   gem 'coderay'
+  gem 'unicorn'
 end
 
 gem 'stringex', '~> 1.4.0'
