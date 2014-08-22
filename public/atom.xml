@@ -4,7 +4,7 @@
   <title><![CDATA[The Other Radio]]></title>
   <link href="http://jcruiz.co/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2014-08-22T01:07:08-07:00</updated>
+  <updated>2014-08-22T01:27:49-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[En La Copa, Brasil Demuestra Su Potencial Una Vez Más]]></title>
+    <title type="html"><![CDATA[En La Copa, Brasil demuestra su potencial una vez más]]></title>
     <link href="http://jcruiz.co/blog/2014/07/15/en-la-copa/"/>
     <updated>2014-07-15T20:20:00-07:00</updated>
     <id>http://jcruiz.co/blog/2014/07/15/en-la-copa</id>
@@ -37,6 +37,47 @@
 <p>No soy un experto en los problemas de fondo que enfrenta Brasil, sin embargo noto muchas similitudes con relación a mi país Colombia así como otros de la región. Allí la cultura no se enfoca en innovar con calidad, por el contrario siempre se espera que algo no funcione de la forma en que debería funcionar desde el principio y esto es aceptado, se cree que lo de afuera es mejor y tiene mejor calidad y creemos que por estar en América del Sur no tenemos las mismas oportunidades.</p>
 
 <p>Las barreras están en nuestra mente y en nuestra cultura &ndash; apostemos al buen trabajo, al trabajo de calidad y a aprender a innovar. Esto no para copiar sino para aprovechar las ventajas que tenemos hoy en día, donde las fronteras ya no existen y estamos rodeados de  una avalancha de información por todos lados. Así como los equipos de la copa del mundo, trabajemos en equipo hacia objetivos en común y dejemos de un lado el pensar únicamente en el bien individual, cuando está en nosotros el forjar el futuro de nuestro país.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This is a sample post]]></title>
+    <link href="http://jcruiz.co/blog/2014/04/22/a-sample-post/"/>
+    <updated>2014-04-22T14:40:00-07:00</updated>
+    <id>http://jcruiz.co/blog/2014/04/22/a-sample-post</id>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<!-- More -->
+
+
+<h2>this is a sample header</h2>
+
+<p>Here&rsquo;s some sample code:</p>
+
+<p>~~~
+def test
+  @answer = 6*9
+  if @answer != 42  # this should never happen</p>
+
+<pre><code>raise "Oh no, not again."
+</code></pre>
+
+<p>  else</p>
+
+<pre><code>print "Don't panic."
+</code></pre>
+
+<p>end
+~~~
+{:lang=&ldquo;ruby&rdquo;}</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 ]]></content>
   </entry>
   
@@ -154,7 +195,7 @@ from /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/bin/bundle:
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Traveling to Bogota? Here Are My Recommendations Part 1]]></title>
+    <title type="html"><![CDATA[Traveling to Bogota? Here are my recommendations part 1]]></title>
     <link href="http://jcruiz.co/blog/2014/03/02/traveling-to-bogota-here-are-my-recommendations-part-1/"/>
     <updated>2014-03-02T17:06:00-08:00</updated>
     <id>http://jcruiz.co/blog/2014/03/02/traveling-to-bogota-here-are-my-recommendations-part-1</id>
@@ -240,7 +281,7 @@ from /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/bin/bundle:
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The No-Cable Era: A Geek's Perspective]]></title>
+    <title type="html"><![CDATA[The No-Cable Era: A geek's perspective]]></title>
     <link href="http://jcruiz.co/blog/2014/02/19/the-no-cable-era/"/>
     <updated>2014-02-19T00:40:00-08:00</updated>
     <id>http://jcruiz.co/blog/2014/02/19/the-no-cable-era</id>
