@@ -35,20 +35,20 @@ code_dir: downloads/code
 category_dir: blog/categories
 
 #classic theme setting
-markdown: rdiscount
-rdiscount:
-  extensions:
-    - autolink
-    - footnotes
-    - smart
+# markdown: rdiscount
+# rdiscount:
+#   extensions:
+#     - autolink
+#     - footnotes
+#     - smart
 
 #Settings for Theme Casper 
-#markdown: kramdown
-# kramdown:
-#   use_coderay: true
-#   coderay:
-#     coderay_line_numbers: nil
-#     coderay_css: class
+markdown: kramdown
+kramdown:
+  use_coderay: true
+  coderay:
+    coderay_line_numbers: nil
+    coderay_css: class
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index

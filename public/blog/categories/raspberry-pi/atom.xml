@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Raspberry Pi | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/raspberry-pi/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2014-08-22T01:29:33-07:00</updated>
+  <updated>2014-08-22T01:52:10-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -18,40 +18,34 @@
     <link href="http://jcruiz.co/blog/2014/02/19/the-no-cable-era/"/>
     <updated>2014-02-19T00:40:00-08:00</updated>
     <id>http://jcruiz.co/blog/2014/02/19/the-no-cable-era</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s been almost 4 years since I cut cable tv at home. For some, it could sound as if I&rsquo;m being cheap but, the reality is that I&rsquo;m not alone as I keep on finding more and more people that decide to stop paying for cable mostly becuase there is no more a percived benefit from such service.</p>
+    <content type="html"><![CDATA[<p>It’s been almost 4 years since I cut cable tv at home. For some, it could sound as if I’m being cheap but, the reality is that I’m not alone as I keep on finding more and more people that decide to stop paying for cable mostly becuase there is no more a percived benefit from such service.</p>
 
-<h2>The On-demand Content Era</h2>
-
-<p>If I have to admit something what I&rsquo;ve missed from cable tv in these years, maybe certain live sports events, awards ceremonies, season finales, etc. Yet, I&rsquo;ve noticed that many of these events are aired on public tv channels. That in my mind means: not need to pay for a service where a lot of time is spent watching channels that have already free access.</p>
-
+<h2 id="the-on-demand-content-era">The On-demand Content Era</h2>
+<p>If I have to admit something what I’ve missed from cable tv in these years, maybe certain live sports events, awards ceremonies, season finales, etc. Yet, I’ve noticed that many of these events are aired on public tv channels. That in my mind means: not need to pay for a service where a lot of time is spent watching channels that have already free access.
 <!--more-->
+In most cases, at least in the US, it’s not hard to find official streaming services for many cable channels. I believe that media networks have understood that providing content online directly, they regain control over pushing advertising to online viewers.</p>
 
+<p>No more commercials! Definitely that’s something that I don’t miss at all from cable. I still “consume” ads but not to the extent that I used to when I had cable TV. Having online media services such as Netflix, Hulu and, XBMC I compleately moved away from being force to see tons of irrelevant advertising - now I decide how much ads to watch and when to watch it.</p>
 
-<p>In most cases, at least in the US, it&rsquo;s not hard to find official streaming services for many cable channels. I believe that media networks have understood that providing content online directly, they regain control over pushing advertising to online viewers.</p>
-
-<p>No more commercials! Definitely that&rsquo;s something that I don&rsquo;t miss at all from cable. I still &ldquo;consume&rdquo; ads but not to the extent that I used to when I had cable TV. Having online media services such as Netflix, Hulu and, XBMC I compleately moved away from being force to see tons of irrelevant advertising &ndash; now I decide how much ads to watch and when to watch it.</p>
-
-<h2>TV for Geeks at Home</h2>
-
-<p>Another reason why I don&rsquo;t pay for cable is because I realized that even if I had 50, 200 or 300 channels available, I would spend 90% of my time watching the same 5 channels. In my case, all of them would be sports related channels. As a side note, one of my biggest quests since comming to the US has been finding good quality <a href="http://en.wikipedia.org/wiki/Football">Football</a> channels. I&rsquo;m thankful <a href="http://www.beinsports.tv/">BeIn Sports</a> is taking over.</p>
+<h2 id="tv-for-geeks-at-home">TV for Geeks at Home</h2>
+<p>Another reason why I don’t pay for cable is because I realized that even if I had 50, 200 or 300 channels available, I would spend 90% of my time watching the same 5 channels. In my case, all of them would be sports related channels. As a side note, one of my biggest quests since comming to the US has been finding good quality <a href="http://en.wikipedia.org/wiki/Football">Football</a> channels. I’m thankful <a href="http://www.beinsports.tv/">BeIn Sports</a> is taking over.</p>
 
 <p>Looking at many alternatives, a friend of mine pointed me to the <a href="http://xbmc.org">XBMC</a> project which offers a full blown open source media server by which you can also access internet streams.</p>
 
-<p>So I went and bought my first <a href="http://raspberrypi.org">Raspberry PI</a> and then I was able to install and setup the XBMC version that has been ported to this hardware called &ndash; <a href="http://www.raspbmc.com">Raspbmc</a>. Now using XBMC plugins, I&rsquo;m able to access a lot of content on-demand, live streamings from other countries and the best play them direclty to my TV via HDMI.</p>
+<p>So I went and bought my first <a href="http://raspberrypi.org">Raspberry PI</a> and then I was able to install and setup the XBMC version that has been ported to this hardware called - <a href="http://www.raspbmc.com">Raspbmc</a>. Now using XBMC plugins, I’m able to access a lot of content on-demand, live streamings from other countries and the best play them direclty to my TV via HDMI.</p>
 
 <p>So far my favorite plugins are:</p>
 
 <ul>
-<li>LiveStreams &ndash; I&rsquo;m able to access football worlwide. Checkout <a href="www.pluginsxbmc.com">www.pluginsxbmc.com</a></li>
-<li>Bluecop &ndash; Brings the nice HD streaming from ESPN 3 (Tennis opens, woot!)</li>
-<li>P2P Stream/AceStreams &ndash; In combination with Livestreams, you could access many HD streams for live sports.</li>
-<li>FTV &ndash; I access CBS,NBC, CNBC streamings in the US as well as many public channels</li>
+  <li>LiveStreams - I’m able to access football worlwide. Checkout <a href="www.pluginsxbmc.com">www.pluginsxbmc.com</a></li>
+  <li>Bluecop - Brings the nice HD streaming from ESPN 3 (Tennis opens, woot!)</li>
+  <li>P2P Stream/AceStreams - In combination with Livestreams, you could access many HD streams for live sports.</li>
+  <li>FTV - I access CBS,NBC, CNBC streamings in the US as well as many public channels</li>
 </ul>
-
 
 <p>All of the above in combination with Netflix, Hulu and soon HBO Go, allow me to have all the content I want, whenever I want. News and world affairs content I access it online as well -TuneIn Radio and Sticher and HackerNews are my best friends.</p>
 
-<h2>Do you still pay for Cable? Why?</h2>
+<h2 id="do-you-still-pay-for-cable-why">Do you still pay for Cable? Why?</h2>
 ]]></content>
   </entry>
   

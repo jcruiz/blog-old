@@ -4,7 +4,7 @@
   <title><![CDATA[Category: sample post | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/sample-post/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2014-08-22T01:29:33-07:00</updated>
+  <updated>2014-08-22T01:52:10-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -22,35 +22,26 @@
 
 <!-- More -->
 
+<h2 id="this-is-a-sample-header">this is a sample header</h2>
 
-<h2>this is a sample header</h2>
+<p>Here’s some sample code:</p>
 
-<p>Here&rsquo;s some sample code:</p>
-
-<p>~~~
-def test
+<pre lang="ruby"><code>def test
   @answer = 6*9
-  if @answer != 42  # this should never happen</p>
-
-<pre><code>raise "Oh no, not again."
+  if @answer != 42  # this should never happen
+    raise "Oh no, not again."
+  else
+    print "Don't panic."
+end
 </code></pre>
 
-<p>  else</p>
-
-<pre><code>print "Don't panic."
-</code></pre>
-
-<p>end
-~~~
-{:lang=&ldquo;ruby&rdquo;}</p>
 <div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
+  <ol>
+    <li id="fn:1">
+      <p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
 </div>
-
 ]]></content>
   </entry>
   

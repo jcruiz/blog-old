@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Mavericks | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/mavericks/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2014-08-22T01:29:33-07:00</updated>
+  <updated>2014-08-22T01:52:10-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -18,16 +18,13 @@
     <link href="http://jcruiz.co/blog/2014/03/26/ruby-rvms-and-mac-os-x-update2-mavericks-issues/"/>
     <updated>2014-03-26T00:29:00-07:00</updated>
     <id>http://jcruiz.co/blog/2014/03/26/ruby-rvms-and-mac-os-x-update2-mavericks-issues</id>
-    <content type="html"><![CDATA[<p>I use <a href="http://rvm.io/">RVMs</a> to run ruby applications such as this blog and @Moovweb&rsquo;s pre-release software built via <a href="http://en.wikipedia.org/wiki/RubyGems">ruby gems</a>.</p>
+    <content type="html"><![CDATA[<p>I use <a href="http://rvm.io/">RVMs</a> to run ruby applications such as this blog and @Moovweb’s pre-release software built via <a href="http://en.wikipedia.org/wiki/RubyGems">ruby gems</a>. </p>
 
-<p>A friend of mine and I are going to try to work on a Rails application, which is a good opportunity for me to understand the technology behind so many apps nowadays.</p>
+<p>A friend of mine and I are going to try to work on a Rails application, which is a good opportunity for me to understand the technology behind so many apps nowadays. </p>
 
-<p>As I was getting my environment ready, I ran in some issues on a couple of computers that I had recently updated to Mavericks update 2, this is what happened. I advice that you read the end of this post first&hellip; trust me.</p>
-
+<p>As I was getting my environment ready, I ran in some issues on a couple of computers that I had recently updated to Mavericks update 2, this is what happened. I advice that you read the end of this post first… trust me.
 <!--more-->
-
-
-<p>The first symthom is when you try to install a RVM version and you get messages of this type:</p>
+The first symthom is when you try to install a RVM version and you get messages of this type:</p>
 
 <pre><code>ruby-2.0.0-p247 - #installing.................................................................................................................................
 Retrieving rubygems-2.1.11
@@ -69,28 +66,28 @@ libraries and/or headers.  Check the mkmf.log file for more details.  You may
 need configuration options.
 
 Provided configuration options:
-    --with-opt-dir
-    --with-opt-include
-    --without-opt-include=${opt-dir}/include
-    --with-opt-lib
-    --without-opt-lib=${opt-dir}/lib
-    --with-make-prog
-    --without-make-prog
-    --srcdir=.
-    --curdir
-    --ruby=/Users/juanca/.rvm/rubies/ruby-2.0.0-p247/bin/ruby
-    --with-pg
-    --without-pg
-    --with-pg-dir
-    --without-pg-dir
-    --with-pg-include
-    --without-pg-include=${pg-dir}/include
-    --with-pg-lib
-    --without-pg-lib=${pg-dir}/
-    --with-pg-config
-    --without-pg-config
-    --with-pg_config
-    --without-pg_config
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/juanca/.rvm/rubies/ruby-2.0.0-p247/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
 
 
 Gem files will remain installed in /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/pg-0.15.1 for inspection.

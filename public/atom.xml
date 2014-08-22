@@ -4,7 +4,7 @@
   <title><![CDATA[The Other Radio]]></title>
   <link href="http://jcruiz.co/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2014-08-22T01:29:33-07:00</updated>
+  <updated>2014-08-22T01:52:08-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -18,25 +18,22 @@
     <link href="http://jcruiz.co/blog/2014/07/15/en-la-copa/"/>
     <updated>2014-07-15T20:20:00-07:00</updated>
     <id>http://jcruiz.co/blog/2014/07/15/en-la-copa</id>
-    <content type="html"><![CDATA[<p>En días pasados tuve la oportunidad de escribir un artículo para la revista <a href="http://macmagazine.com.br">Mac Magazine Brasil</a> en el que comparto mi perspectiva después de haber asistido a la copa del mundo en Brasil, narrando las similitudes que encuentro con Colombia alrededor del potencial que nuestros países tienen en un mundo donde las fronteras están cada vez más cerca.</p>
-
+    <content type="html"><![CDATA[<p>En días pasados tuve la oportunidad de escribir un artículo para la revista <a href="http://macmagazine.com.br">Mac Magazine Brasil</a> en el que comparto mi perspectiva después de haber asistido a la copa del mundo en Brasil, narrando las similitudes que encuentro con Colombia alrededor del potencial que nuestros países tienen en un mundo donde las fronteras están cada vez más cerca.
 <!--more-->
-
-
-<p>Pode encontrar a versão no português aqui
+Pode encontrar a versão no português aqui
 <a href="http://macmagazine.com.br/2014/07/15/appreendedor-na-copa-do-mundo-brasil-demonstra-o-seu-potencial-mais-uma-vez/">http://macmagazine.com.br/2014/07/15/appreendedor-na-copa-do-mundo-brasil-demonstra-o-seu-potencial-mais-uma-vez/</a></p>
 
 <p>Durante algunas semanas tuve la oportunidad maravillosa de disfrutar de la copa del mundo en distintas ciudades a lo largo de Brasil, ya una vez de regreso al valle de silicio, comparto algunas impresiones que me dejó esta copa dejando de un lado el tema deportivo y enfocándose en el potencial que tiene Brasil para continuar evolucionando a la par de los que consideramos los “mejores” países.</p>
 
 <p>La copa del mundo estuvo precedida de dificultades, polémicas, escándalos y se generó la expectativa de  un fracaso anunciado. Desde mi perspectiva Brasil y los brasileños lograron llevar a cabo una de las mejores copas de la historia en lo que a fútbol se refiere dentro de un ambiente de fiesta y alegría única característica del pueblo brasileño. A la altura de cualquier otro país que está en vía de desarrollo.</p>
 
-<p>Quedo demostrado el enorme potencial que Brasil tiene para competir a la par de cualquier otro país y este nivel de competitividad se puede desarrollar en cualquier campo &ndash; no solo en el ámbito de los deportes.Brasil cuenta ya con muchas aspectos fundamentales de competitividad: infraestructura en las ciudades, buenas vías terrestres, puertos marítimos, internet de alta velocidad, aeropuertos que conectan todos los puntos del país y con el exterior, etc.</p>
+<p>Quedo demostrado el enorme potencial que Brasil tiene para competir a la par de cualquier otro país y este nivel de competitividad se puede desarrollar en cualquier campo - no solo en el ámbito de los deportes.Brasil cuenta ya con muchas aspectos fundamentales de competitividad: infraestructura en las ciudades, buenas vías terrestres, puertos marítimos, internet de alta velocidad, aeropuertos que conectan todos los puntos del país y con el exterior, etc. </p>
 
 <p>Así mismo Brasil está experimentando una explosión tecnológica que toca todos los sectores de la sociedad, los brasileños son naturales para las redes sociales y el mundo móvil está transformando la forma en que se acceden y utilizan servicios a nivel local y nacional.</p>
 
 <p>No soy un experto en los problemas de fondo que enfrenta Brasil, sin embargo noto muchas similitudes con relación a mi país Colombia así como otros de la región. Allí la cultura no se enfoca en innovar con calidad, por el contrario siempre se espera que algo no funcione de la forma en que debería funcionar desde el principio y esto es aceptado, se cree que lo de afuera es mejor y tiene mejor calidad y creemos que por estar en América del Sur no tenemos las mismas oportunidades.</p>
 
-<p>Las barreras están en nuestra mente y en nuestra cultura &ndash; apostemos al buen trabajo, al trabajo de calidad y a aprender a innovar. Esto no para copiar sino para aprovechar las ventajas que tenemos hoy en día, donde las fronteras ya no existen y estamos rodeados de  una avalancha de información por todos lados. Así como los equipos de la copa del mundo, trabajemos en equipo hacia objetivos en común y dejemos de un lado el pensar únicamente en el bien individual, cuando está en nosotros el forjar el futuro de nuestro país.</p>
+<p>Las barreras están en nuestra mente y en nuestra cultura - apostemos al buen trabajo, al trabajo de calidad y a aprender a innovar. Esto no para copiar sino para aprovechar las ventajas que tenemos hoy en día, donde las fronteras ya no existen y estamos rodeados de  una avalancha de información por todos lados. Así como los equipos de la copa del mundo, trabajemos en equipo hacia objetivos en común y dejemos de un lado el pensar únicamente en el bien individual, cuando está en nosotros el forjar el futuro de nuestro país.</p>
 ]]></content>
   </entry>
   
@@ -49,35 +46,26 @@
 
 <!-- More -->
 
+<h2 id="this-is-a-sample-header">this is a sample header</h2>
 
-<h2>this is a sample header</h2>
+<p>Here’s some sample code:</p>
 
-<p>Here&rsquo;s some sample code:</p>
-
-<p>~~~
-def test
+<pre lang="ruby"><code>def test
   @answer = 6*9
-  if @answer != 42  # this should never happen</p>
-
-<pre><code>raise "Oh no, not again."
+  if @answer != 42  # this should never happen
+    raise "Oh no, not again."
+  else
+    print "Don't panic."
+end
 </code></pre>
 
-<p>  else</p>
-
-<pre><code>print "Don't panic."
-</code></pre>
-
-<p>end
-~~~
-{:lang=&ldquo;ruby&rdquo;}</p>
 <div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
+  <ol>
+    <li id="fn:1">
+      <p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
 </div>
-
 ]]></content>
   </entry>
   
@@ -86,16 +74,13 @@ def test
     <link href="http://jcruiz.co/blog/2014/03/26/ruby-rvms-and-mac-os-x-update2-mavericks-issues/"/>
     <updated>2014-03-26T00:29:00-07:00</updated>
     <id>http://jcruiz.co/blog/2014/03/26/ruby-rvms-and-mac-os-x-update2-mavericks-issues</id>
-    <content type="html"><![CDATA[<p>I use <a href="http://rvm.io/">RVMs</a> to run ruby applications such as this blog and @Moovweb&rsquo;s pre-release software built via <a href="http://en.wikipedia.org/wiki/RubyGems">ruby gems</a>.</p>
+    <content type="html"><![CDATA[<p>I use <a href="http://rvm.io/">RVMs</a> to run ruby applications such as this blog and @Moovweb’s pre-release software built via <a href="http://en.wikipedia.org/wiki/RubyGems">ruby gems</a>. </p>
 
-<p>A friend of mine and I are going to try to work on a Rails application, which is a good opportunity for me to understand the technology behind so many apps nowadays.</p>
+<p>A friend of mine and I are going to try to work on a Rails application, which is a good opportunity for me to understand the technology behind so many apps nowadays. </p>
 
-<p>As I was getting my environment ready, I ran in some issues on a couple of computers that I had recently updated to Mavericks update 2, this is what happened. I advice that you read the end of this post first&hellip; trust me.</p>
-
+<p>As I was getting my environment ready, I ran in some issues on a couple of computers that I had recently updated to Mavericks update 2, this is what happened. I advice that you read the end of this post first… trust me.
 <!--more-->
-
-
-<p>The first symthom is when you try to install a RVM version and you get messages of this type:</p>
+The first symthom is when you try to install a RVM version and you get messages of this type:</p>
 
 <pre><code>ruby-2.0.0-p247 - #installing.................................................................................................................................
 Retrieving rubygems-2.1.11
@@ -137,28 +122,28 @@ libraries and/or headers.  Check the mkmf.log file for more details.  You may
 need configuration options.
 
 Provided configuration options:
-    --with-opt-dir
-    --with-opt-include
-    --without-opt-include=${opt-dir}/include
-    --with-opt-lib
-    --without-opt-lib=${opt-dir}/lib
-    --with-make-prog
-    --without-make-prog
-    --srcdir=.
-    --curdir
-    --ruby=/Users/juanca/.rvm/rubies/ruby-2.0.0-p247/bin/ruby
-    --with-pg
-    --without-pg
-    --with-pg-dir
-    --without-pg-dir
-    --with-pg-include
-    --without-pg-include=${pg-dir}/include
-    --with-pg-lib
-    --without-pg-lib=${pg-dir}/
-    --with-pg-config
-    --without-pg-config
-    --with-pg_config
-    --without-pg_config
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/juanca/.rvm/rubies/ruby-2.0.0-p247/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
 
 
 Gem files will remain installed in /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/pg-0.15.1 for inspection.
@@ -199,84 +184,73 @@ from /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/bin/bundle:
     <link href="http://jcruiz.co/blog/2014/03/02/traveling-to-bogota-here-are-my-recommendations-part-1/"/>
     <updated>2014-03-02T17:06:00-08:00</updated>
     <id>http://jcruiz.co/blog/2014/03/02/traveling-to-bogota-here-are-my-recommendations-part-1</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve been asked in various occasions for recommendations and tips when traveling to Colombia. The people that know me, are aware that I talk a lot about Colombia and about my life growing in Bogota.</p>
+    <content type="html"><![CDATA[<p>I’ve been asked in various occasions for recommendations and tips when traveling to Colombia. The people that know me, are aware that I talk a lot about Colombia and about my life growing in Bogota. </p>
 
 <p>Conversations about Colombia, often end up in someone knowing someone that have been to Colombia or is planning to go to Colombia. And often, I end up volunteering to provide tips, guidance to get what I consider, an awesome experience while in my Country.</p>
 
-<p>So instead of continuing sending out individual messages with recommendations about Colombia, why not posting them out there in the Internet so other could potentially find them? So here they are, let&rsquo;s start with my city: Bogota</p>
-
+<p>So instead of continuing sending out individual messages with recommendations about Colombia, why not posting them out there in the Internet so other could potentially find them? So here they are, let’s start with my city: Bogota
 <!--more-->
-
-
-<p>Bogota is a very large city that much like any other major city in the world like NYC, Paris or Sao Paulo is live 24x7. These days the traffic has been really bad so be prepared to spend time in traffic jams, so avoid as much as you can to move around during peak times. 7 &ndash; 9 a.m in the mornings and 4-7 at night.</p>
+Bogota is a very large city that much like any other major city in the world like NYC, Paris or Sao Paulo is live 24x7. These days the traffic has been really bad so be prepared to spend time in traffic jams, so avoid as much as you can to move around during peak times. 7 - 9 a.m in the mornings and 4-7 at night.</p>
 
 <p>If you have a smarthphone with an active data plan on your phone. I encourage you to download <a href="http://tappsi.co/">Tappsi</a>, so you can order taxis in a similar way to Lift or Uber in a secure and confortable way. Also, <a href="https://www.uber.com/cities/bogota">Uber</a> is active in Bogota and the prices similar to the US.</p>
 
-<p>I&rsquo;m going to start covering those areas in the city that are located in the northen part:</p>
+<p>I’m going to start covering those areas in the city that are located in the northen part:</p>
 
-<h3>Usaquen: What used to be a small town located in the outskirts of the city, it&rsquo;s now a neighborhood. Though it is one of the most vibrant areas where you can find great restaurants and bars. You could literally try different things in every visit. Recommendations:</h3>
-
-<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/usaquen_zpsbfe09de2.jpg"></p>
-
-<ul>
-<li>Antara: Peruvian food.</li>
-<li>80 sillas: Fusion international.</li>
-<li>Abasto: Organic/colombian food, great for brunch.</li>
-<li>Bogota Beer company: Drinks, social fun times.</li>
-</ul>
-
-
-<p>Usaquen has a famous flea market on Sundays where you can experience the great diversity of Bogota and buy really good handcrafts and souvenirs. Also right next to Usaquen there is a nice shopping mall-Hacienda Santa Barbara.</p>
-
-<h3>Parque 93: A park in the north that is surrounded by nice bars and restaurants. A great place to go for dinner + drinks/party. Recommendations:</h3>
-
-<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/93_zps71f8cfa8.jpg"></p>
+<h3 id="usaquen-what-used-to-be-a-small-town-located-in-the-outskirts-of-the-city-its-now-a-neighborhood-though-it-is-one-of-the-most-vibrant-areas-where-you-can-find-great-restaurants-and-bars-you-could-literally-try-different-things-in-every-visit-recommendations">Usaquen: What used to be a small town located in the outskirts of the city, it’s now a neighborhood. Though it is one of the most vibrant areas where you can find great restaurants and bars. You could literally try different things in every visit. Recommendations:</h3>
+<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/usaquen_zpsbfe09de2.jpg" /></p>
 
 <ul>
-<li>Salto del Angel: Dinner + party</li>
-<li>Sagal: Steak house</li>
-<li>Bogota Beer company</li>
-<li>Wok: Asian fusion</li>
-<li>La Hamburgueseria: Burgers + live music</li>
-<li>El corral: If you like hamburgers, you <strong>HAVE TO</strong> try El Corral, the best burgers in the world</li>
-<li>La bonga del sinu: Colombian style stake house</li>
-<li>Kukaramakara: Party</li>
-<li>Gaira Cafe: Northern Colombian food + party</li>
+  <li>Antara: Peruvian food.</li>
+  <li>80 sillas: Fusion international.</li>
+  <li>Abasto: Organic/colombian food, great for brunch.</li>
+  <li>Bogota Beer company: Drinks, social fun times.</li>
 </ul>
 
+<p>Usaquen has a famous flea market on Sundays where you can experience the great diversity of Bogota and buy really good handcrafts and souvenirs. Also right next to Usaquen there is a nice shopping mall-Hacienda Santa Barbara. </p>
 
-<h3>Zona T: Is Bogota&rsquo;s version of San Francisco&rsquo;s Union Square. Upscale shopping + tons of alternatives to eat and party. Recommendations:</h3>
-
-<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonaT_zps0aaf280e.jpg"></p>
+<h3 id="parque-93-a-park-in-the-north-that-is-surrounded-by-nice-bars-and-restaurants-a-great-place-to-go-for-dinner--drinksparty-recommendations">Parque 93: A park in the north that is surrounded by nice bars and restaurants. A great place to go for dinner + drinks/party. Recommendations:</h3>
+<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/93_zps71f8cfa8.jpg" /></p>
 
 <ul>
-<li>La Plaza de Andres: Great food from all over Colombia</li>
-<li>14 Incas: Peruvian</li>
-<li>La mona: After-party food</li>
-<li>Andres DC: One of the best parties in the city you can get food there as well</li>
-<li>Cachao: Mojitos + live salsa</li>
-<li>Brasserie: French</li>
-<li>Armando Records: Alternative music, live bands, party</li>
-<li>Club Colombia: Upscale colombian food</li>
-<li>Wabisabi: Japanese</li>
+  <li>Salto del Angel: Dinner + party</li>
+  <li>Sagal: Steak house</li>
+  <li>Bogota Beer company</li>
+  <li>Wok: Asian fusion</li>
+  <li>La Hamburgueseria: Burgers + live music</li>
+  <li>El corral: If you like hamburgers, you <strong>HAVE TO</strong> try El Corral, the best burgers in the world</li>
+  <li>La bonga del sinu: Colombian style stake house</li>
+  <li>Kukaramakara: Party</li>
+  <li>Gaira Cafe: Northern Colombian food + party</li>
 </ul>
 
-
-<h3>Zona G: Established as one of the areas with the best restaurants in the city. Recommendations:</h3>
-
-<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonag_zps890c7f10.jpg"></p>
+<h3 id="zona-t-is-bogotas-version-of-san-franciscos-union-square-upscale-shopping--tons-of-alternatives-to-eat-and-party-recommendations">Zona T: Is Bogota’s version of San Francisco’s Union Square. Upscale shopping + tons of alternatives to eat and party. Recommendations:</h3>
+<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonaT_zps0aaf280e.jpg" /></p>
 
 <ul>
-<li>Astrid y Gaston: Peruvian</li>
-<li>La Bagatelle: French</li>
-<li>La Cigale: Frech</li>
-<li>La Biferia: Steakhouse</li>
-<li>Masa: Bakery, coffee</li>
-<li>Nazca: Peruvian</li>
+  <li>La Plaza de Andres: Great food from all over Colombia</li>
+  <li>14 Incas: Peruvian</li>
+  <li>La mona: After-party food</li>
+  <li>Andres DC: One of the best parties in the city you can get food there as well</li>
+  <li>Cachao: Mojitos + live salsa</li>
+  <li>Brasserie: French</li>
+  <li>Armando Records: Alternative music, live bands, party</li>
+  <li>Club Colombia: Upscale colombian food</li>
+  <li>Wabisabi: Japanese</li>
 </ul>
 
+<h3 id="zona-g-established-as-one-of-the-areas-with-the-best-restaurants-in-the-city-recommendations">Zona G: Established as one of the areas with the best restaurants in the city. Recommendations:</h3>
+<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonag_zps890c7f10.jpg" /></p>
 
-<p>Part 2 with other areas of the city comming up soon&hellip;</p>
+<ul>
+  <li>Astrid y Gaston: Peruvian</li>
+  <li>La Bagatelle: French</li>
+  <li>La Cigale: Frech</li>
+  <li>La Biferia: Steakhouse</li>
+  <li>Masa: Bakery, coffee</li>
+  <li>Nazca: Peruvian</li>
+</ul>
+
+<p>Part 2 with other areas of the city comming up soon…</p>
 ]]></content>
   </entry>
   
@@ -285,40 +259,34 @@ from /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/bin/bundle:
     <link href="http://jcruiz.co/blog/2014/02/19/the-no-cable-era/"/>
     <updated>2014-02-19T00:40:00-08:00</updated>
     <id>http://jcruiz.co/blog/2014/02/19/the-no-cable-era</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s been almost 4 years since I cut cable tv at home. For some, it could sound as if I&rsquo;m being cheap but, the reality is that I&rsquo;m not alone as I keep on finding more and more people that decide to stop paying for cable mostly becuase there is no more a percived benefit from such service.</p>
+    <content type="html"><![CDATA[<p>It’s been almost 4 years since I cut cable tv at home. For some, it could sound as if I’m being cheap but, the reality is that I’m not alone as I keep on finding more and more people that decide to stop paying for cable mostly becuase there is no more a percived benefit from such service.</p>
 
-<h2>The On-demand Content Era</h2>
-
-<p>If I have to admit something what I&rsquo;ve missed from cable tv in these years, maybe certain live sports events, awards ceremonies, season finales, etc. Yet, I&rsquo;ve noticed that many of these events are aired on public tv channels. That in my mind means: not need to pay for a service where a lot of time is spent watching channels that have already free access.</p>
-
+<h2 id="the-on-demand-content-era">The On-demand Content Era</h2>
+<p>If I have to admit something what I’ve missed from cable tv in these years, maybe certain live sports events, awards ceremonies, season finales, etc. Yet, I’ve noticed that many of these events are aired on public tv channels. That in my mind means: not need to pay for a service where a lot of time is spent watching channels that have already free access.
 <!--more-->
+In most cases, at least in the US, it’s not hard to find official streaming services for many cable channels. I believe that media networks have understood that providing content online directly, they regain control over pushing advertising to online viewers.</p>
 
+<p>No more commercials! Definitely that’s something that I don’t miss at all from cable. I still “consume” ads but not to the extent that I used to when I had cable TV. Having online media services such as Netflix, Hulu and, XBMC I compleately moved away from being force to see tons of irrelevant advertising - now I decide how much ads to watch and when to watch it.</p>
 
-<p>In most cases, at least in the US, it&rsquo;s not hard to find official streaming services for many cable channels. I believe that media networks have understood that providing content online directly, they regain control over pushing advertising to online viewers.</p>
-
-<p>No more commercials! Definitely that&rsquo;s something that I don&rsquo;t miss at all from cable. I still &ldquo;consume&rdquo; ads but not to the extent that I used to when I had cable TV. Having online media services such as Netflix, Hulu and, XBMC I compleately moved away from being force to see tons of irrelevant advertising &ndash; now I decide how much ads to watch and when to watch it.</p>
-
-<h2>TV for Geeks at Home</h2>
-
-<p>Another reason why I don&rsquo;t pay for cable is because I realized that even if I had 50, 200 or 300 channels available, I would spend 90% of my time watching the same 5 channels. In my case, all of them would be sports related channels. As a side note, one of my biggest quests since comming to the US has been finding good quality <a href="http://en.wikipedia.org/wiki/Football">Football</a> channels. I&rsquo;m thankful <a href="http://www.beinsports.tv/">BeIn Sports</a> is taking over.</p>
+<h2 id="tv-for-geeks-at-home">TV for Geeks at Home</h2>
+<p>Another reason why I don’t pay for cable is because I realized that even if I had 50, 200 or 300 channels available, I would spend 90% of my time watching the same 5 channels. In my case, all of them would be sports related channels. As a side note, one of my biggest quests since comming to the US has been finding good quality <a href="http://en.wikipedia.org/wiki/Football">Football</a> channels. I’m thankful <a href="http://www.beinsports.tv/">BeIn Sports</a> is taking over.</p>
 
 <p>Looking at many alternatives, a friend of mine pointed me to the <a href="http://xbmc.org">XBMC</a> project which offers a full blown open source media server by which you can also access internet streams.</p>
 
-<p>So I went and bought my first <a href="http://raspberrypi.org">Raspberry PI</a> and then I was able to install and setup the XBMC version that has been ported to this hardware called &ndash; <a href="http://www.raspbmc.com">Raspbmc</a>. Now using XBMC plugins, I&rsquo;m able to access a lot of content on-demand, live streamings from other countries and the best play them direclty to my TV via HDMI.</p>
+<p>So I went and bought my first <a href="http://raspberrypi.org">Raspberry PI</a> and then I was able to install and setup the XBMC version that has been ported to this hardware called - <a href="http://www.raspbmc.com">Raspbmc</a>. Now using XBMC plugins, I’m able to access a lot of content on-demand, live streamings from other countries and the best play them direclty to my TV via HDMI.</p>
 
 <p>So far my favorite plugins are:</p>
 
 <ul>
-<li>LiveStreams &ndash; I&rsquo;m able to access football worlwide. Checkout <a href="www.pluginsxbmc.com">www.pluginsxbmc.com</a></li>
-<li>Bluecop &ndash; Brings the nice HD streaming from ESPN 3 (Tennis opens, woot!)</li>
-<li>P2P Stream/AceStreams &ndash; In combination with Livestreams, you could access many HD streams for live sports.</li>
-<li>FTV &ndash; I access CBS,NBC, CNBC streamings in the US as well as many public channels</li>
+  <li>LiveStreams - I’m able to access football worlwide. Checkout <a href="www.pluginsxbmc.com">www.pluginsxbmc.com</a></li>
+  <li>Bluecop - Brings the nice HD streaming from ESPN 3 (Tennis opens, woot!)</li>
+  <li>P2P Stream/AceStreams - In combination with Livestreams, you could access many HD streams for live sports.</li>
+  <li>FTV - I access CBS,NBC, CNBC streamings in the US as well as many public channels</li>
 </ul>
-
 
 <p>All of the above in combination with Netflix, Hulu and soon HBO Go, allow me to have all the content I want, whenever I want. News and world affairs content I access it online as well -TuneIn Radio and Sticher and HackerNews are my best friends.</p>
 
-<h2>Do you still pay for Cable? Why?</h2>
+<h2 id="do-you-still-pay-for-cable-why">Do you still pay for Cable? Why?</h2>
 ]]></content>
   </entry>
   
@@ -327,16 +295,13 @@ from /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/bin/bundle:
     <link href="http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/"/>
     <updated>2013-10-03T00:04:00-07:00</updated>
     <id>http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3</id>
-    <content type="html"><![CDATA[<p>Facing an interesting task the other day at work. Install <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> in a RHEL6.3 machine. This seems like a pretty standard task to be perfomed.</p>
+    <content type="html"><![CDATA[<p>Facing an interesting task the other day at work. Install <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> in a RHEL6.3 machine. This seems like a pretty standard task to be perfomed. </p>
 
-<p>Interesting enough, Google is not longer supporting RedHat-based linux flavors such as CentOS or Fedora. This to me is actually shocking at the same time that compleately puts my engenieering ego in the spot.</p>
-
+<p>Interesting enough, Google is not longer supporting RedHat-based linux flavors such as CentOS or Fedora. This to me is actually shocking at the same time that compleately puts my engenieering ego in the spot.
 <!--more-->
+After googling around for hours I managed to get it working. Thank to <a href="http://chrome.richardlloyd.org.uk/">Richar Lloyd</a> and <a href="http://www.tecmint.com/install-google-chrome-on-redhat-centos-fedora-linux/">Narad Shrestha</a>, I was able to see the light at the end of the tunnel.</p>
 
-
-<p>After googling around for hours I managed to get it working. Thank to <a href="http://chrome.richardlloyd.org.uk/">Richar Lloyd</a> and <a href="http://www.tecmint.com/install-google-chrome-on-redhat-centos-fedora-linux/">Narad Shrestha</a>, I was able to see the light at the end of the tunnel.</p>
-
-<p>So follow up the above link from Naradm, then it will prompt you to upgrade the entire system to a new version in order to run chrome, which really is ridiculous &ndash; instead just upgrade nss by doing:</p>
+<p>So follow up the above link from Naradm, then it will prompt you to upgrade the entire system to a new version in order to run chrome, which really is ridiculous - instead just upgrade nss by doing:</p>
 
 <p><code>yum update nss</code></p>
 
@@ -344,7 +309,7 @@ from /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/bin/bundle:
 
 <p>Also as a recommendation, enter your RHN credential directly during installation, as this is the only way to get YUM up and running without a problem. Otherwhise you will get stuck trying to run commands in the terminal + searching for the right wizard that allows you to register you machine into the RHN.</p>
 
-<p>Mission accomplished</p>
+<p>Mission accomplished </p>
 ]]></content>
   </entry>
   
@@ -353,32 +318,28 @@ from /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/bin/bundle:
     <link href="http://jcruiz.co/blog/2013/08/30/blogging-like-a-hacker/"/>
     <updated>2013-08-30T13:30:00-07:00</updated>
     <id>http://jcruiz.co/blog/2013/08/30/blogging-like-a-hacker</id>
-    <content type="html"><![CDATA[<p>My old blogs used well known blogging engines: blogger and MovableType. For years blogger has been able to keep up with trends &ndash; in my opinion always catching up. However, I didn&rsquo;t want to simply create a new blog on blogger; something was just not right.</p>
+    <content type="html"><![CDATA[<p>My old blogs used well known blogging engines: blogger and MovableType. For years blogger has been able to keep up with trends - in my opinion always catching up. However, I didn’t want to simply create a new blog on blogger; something was just not right.</p>
 
 <p>One day a technical blog cought my attention because of its look and feel and nice caligraphy. It was <a href="http://octopress.org/">Octopress</a> which was created under the premise that is a blogging framework for hackers.</p>
 
-<p>So, what does it reallly mean? Let me give you more context info:</p>
-
+<p>So, what does it reallly mean? Let me give you more context info:
 <!--more-->
+I come from the Java EE world - so IDEs, frameworks, installing appication servers, compiling and running - are all very well known to me. However when I joined <a href="http://moovweb.com">Moovweb</a> I realized something that I had been seeing for a while: the new companies are not sold by Java or .Net anymore.</p>
 
+<p>In other words, outside of the traditional corporate world developers don’t talk anymore about enterprise EJBs, Controllers or JSF, and instead the dictionary words sound something like Go, JavaScript, Ruby, HTML 5, CSS3, Sass, Bootstrap, Angular, etc….</p>
 
-<p>I come from the Java EE world &ndash; so IDEs, frameworks, installing appication servers, compiling and running &ndash; are all very well known to me. However when I joined <a href="http://moovweb.com">Moovweb</a> I realized something that I had been seeing for a while: the new companies are not sold by Java or .Net anymore.</p>
+<p>The new era of enterprise software is already here and it is rapidly taking over the traditional way that, not too long ago for some of us, were the latest trends in programming: objects oriented, MVC, JSPs (specially) …. and I thought that at that point I knew it all.</p>
 
-<p>In other words, outside of the traditional corporate world developers don&rsquo;t talk anymore about enterprise EJBs, Controllers or JSF, and instead the dictionary words sound something like Go, JavaScript, Ruby, HTML 5, CSS3, Sass, Bootstrap, Angular, etc&hellip;.</p>
-
-<p>The new era of enterprise software is already here and it is rapidly taking over the traditional way that, not too long ago for some of us, were the latest trends in programming: objects oriented, MVC, JSPs (specially) &hellip;. and I thought that at that point I knew it all.</p>
-
-<p>So how all of the above connects with blogging? Well, I just told you about my developer journey and where I&rsquo;m right now so, as part of my new life:</p>
+<p>So how all of the above connects with blogging? Well, I just told you about my developer journey and where I’m right now so, as part of my new life:</p>
 
 <ul>
-<li>I&rsquo;m getting used to not having and IDE or ultra editor to create Java applications or blog posts.</li>
-<li>I&rsquo;m changing Java systax for Tritium, Uranium, Javascript, markdown and Sass.</li>
-<li>I&rsquo;m getting used to using GitHub for pushing my code and also pushing my entire blog.</li>
-<li>And, finally I&rsquo;m using Heroku to host this blog that you are reading right now</li>
+  <li>I’m getting used to not having and IDE or ultra editor to create Java applications or blog posts.</li>
+  <li>I’m changing Java systax for Tritium, Uranium, Javascript, markdown and Sass.</li>
+  <li>I’m getting used to using GitHub for pushing my code and also pushing my entire blog.</li>
+  <li>And, finally I’m using Heroku to host this blog that you are reading right now </li>
 </ul>
 
-
-<p>So yeah, this is one of my new hacking projects&hellip;.</p>
+<p>So yeah, this is one of my new hacking projects….</p>
 ]]></content>
   </entry>
   
@@ -389,7 +350,7 @@ from /Users/juanca/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/bin/bundle:
     <id>http://jcruiz.co/blog/2013/08/28/back-to-blogging-welcome</id>
     <content type="html"><![CDATA[<p>I started my first <a href="http://oracleradio.blogspot.com">blog</a> 6 years ago, with the objective to share technical information about Oracle development tools in Spanish. A couple of years after that I started <a href="http://blogs.oracle.com/jruiz">another one</a> in English too as part of my previous job.</p>
 
-<p>As a non-native English speaker, blogging helps me to practice my grammar, punctuation, etc; I&rsquo;m a true believer in collective knowledge sharing and how the more knowledge I share, the more knowledge I could gather which is another great thing about blogging.</p>
+<p>As a non-native English speaker, blogging helps me to practice my grammar, punctuation, etc; I’m a true believer in collective knowledge sharing and how the more knowledge I share, the more knowledge I could gather which is another great thing about blogging.</p>
 
 <p>In recent months I transitioned to a new job in the mobile cloud space, with a company called <a href="http://moovweb.com">Moovweb</a>. Many new challenges and lots of learning can perfectly describe my ride so far and there is still more to learn, more to experiment, to contribute, and to learn from others.</p>
 
