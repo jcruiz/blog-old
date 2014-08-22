@@ -7,7 +7,7 @@ title: The Other Radio
 subtitle: A Colombian geeking out in the Silicon Valley
 author: Juan Camilo Ruiz
 simple_search: http://google.com/search
-description:
+description: "I'm Juan Camilo Ruiz, technologist and computer sciences professional from Bogotá, Colombia-living in San Francisco. Product Manager for the Moovweb Platform, former PM at Oracle for Development Tools. Love technology, love to learn, welcome to my playground. This blog contains my personal opiniones and don't represent anyone but me."
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -35,19 +35,20 @@ code_dir: downloads/code
 category_dir: blog/categories
 
 #classic theme setting
-# markdown: rdiscount
-# rdiscount:
-#   extensions:
-#     - autolink
-#     - footnotes
-#     - smart
+markdown: rdiscount
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
 
-markdown: kramdown
-kramdown:
-  use_coderay: true
-  coderay:
-    coderay_line_numbers: nil
-    coderay_css: class
+#Settings for Theme Casper 
+#markdown: kramdown
+# kramdown:
+#   use_coderay: true
+#   coderay:
+#     coderay_line_numbers: nil
+#     coderay_css: class
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
@@ -107,6 +108,9 @@ google_analytics_tracking_id: UA-44281567-1
 
 # Facebook Like
 facebook_like: false
+
+# LinkedIn
+linkedin_user: juancamiloruiz
 
 #Last.fm
 lastfm_apikey: a471deaebef3a750af5db427125a6d2a
