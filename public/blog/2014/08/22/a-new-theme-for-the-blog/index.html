@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>A New Theme and Performance Added to the Blog - The Other Radio</title>
+  <meta name="author" content="Juan Camilo Ruiz">
+
+  
+  <meta name="description" content="A New Theme and Performance Added to the Blog written Aug 22nd, 2014 in octopress, theme This week I started looking at how to modify or replace the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jcruiz.co/blog/2014/08/22/a-new-theme-for-the-blog">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="The Other Radio" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-44281567-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>A New Theme and Performance Added to the Blog</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2014-08-22T23:42:00-07:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2014</time>
+          
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/octopress/'>octopress</a>, <a class='category' href='/blog/categories/theme/'>theme</a>
+  
+</span>
+
+
+        </div>
+        <p>This week I started looking at how to modify or replace the “classic” theme that comes off-the-shelf with Octopress. I was positively surprised when I found the glorious <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd party Octopress themes</a>. I took the time to check most of them and it was great to see a consistent high-quality around most of them. Also, how easy it was to add them into the blog. On top of that, I added a few experimental performance settings to speed up the blog using the limited free infrastructure. Read on to get more details.
+<!--more--></p>
+
+<p>The theme that I liked the most (which is the one that you are looking at right now) is called <a href="http://https://github.com/sevenadrian/MediumFox">MediumFox</a>, created by Adrian Artiles. It’sinspired on the design of Medium and FoxSlide.</p>
+
+<p>Besides being fully responsive, it contains really nice visual design: from the picture to the font, as well as the top bio which is a great way to present the blog to new visitors.</p>
+
+<p>When installing Octopress themes I recommend that you install them using git submodules, this way everytime you deploy the blog to your server, it will pull the latest changes to the theme by free which is really good.</p>
+
+<p>Another improvement that I added to the blog, was changing the default ruby web server that octopress uses locally which is the sames that Heroku uses when deployment-called WEBrick.</p>
+
+<p>After installing the theme I received a console message from Heroku advicing changing the web server to <a href="http://unicorn.bogomips.org/">Unicorn</a>. The interesting part about unicorn is the fact that using a single Dyno (heroku’s processor), with Unicorn you can have up to 4 workers in pararell in comparison with a single worker that WEBrick offers. Heroky has some really nice instructions about how to add unicorn to your Ruby application <a href="https://devcenter.heroku.com/articles/rails-unicorn">here</a></p>
+
+<p>Although the blog didn’t have any performance issues that I’m aware off, this I consider it my personal playground and I’ll continue adding things as I’m learning about them.</p>
+
+
+        <hr class="divider-short"/>
+        
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2014/07/15/en-la-copa/" title="Previous Post: En La Copa, Brasil demuestra su potencial una vez más">&laquo; Previous: En La Copa, Brasil demuestra su potencial una vez más</a>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="https://twitter.com/juanca"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/jcruiz"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+    <a href="https://linkedin.com/in/juancamiloruiz"><img src="/images/glyphicons_social_17_linked_in.png"/></a>
+    
+
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

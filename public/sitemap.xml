@@ -2,58 +2,62 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://jcruiz.co/blog/2013/08/28/back-to-blogging-welcome/</loc>
-        <lastmod>2014-08-22T10:12:06-07:00</lastmod>
+        <lastmod>2014-08-22T23:37:25-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/2013/08/30/blogging-like-a-hacker/</loc>
-        <lastmod>2014-08-22T10:12:06-07:00</lastmod>
+        <lastmod>2014-08-22T23:37:25-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/</loc>
-        <lastmod>2014-08-22T10:12:06-07:00</lastmod>
+        <lastmod>2014-08-22T23:37:25-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/2014/02/19/the-no-cable-era/</loc>
-        <lastmod>2014-08-22T10:40:45-07:00</lastmod>
+        <lastmod>2014-08-22T23:37:25-07:00</lastmod>
     </url>
     <url>
         <loc>
             http://jcruiz.co/blog/2014/03/02/traveling-to-bogota-here-are-my-recommendations-part-1/
         </loc>
-        <lastmod>2014-08-22T12:23:19-07:00</lastmod>
+        <lastmod>2014-08-22T23:37:25-07:00</lastmod>
     </url>
     <url>
         <loc>
             http://jcruiz.co/blog/2014/03/26/ruby-rvms-and-mac-os-x-update2-mavericks-issues/
         </loc>
-        <lastmod>2014-08-22T10:12:06-07:00</lastmod>
+        <lastmod>2014-08-22T23:37:25-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/2014/07/15/en-la-copa/</loc>
-        <lastmod>2014-08-22T10:12:06-07:00</lastmod>
+        <lastmod>2014-08-22T23:37:25-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jcruiz.co/blog/2014/08/22/a-new-theme-for-the-blog/</loc>
+        <lastmod>2014-08-24T23:47:55-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/archives/</loc>
-        <lastmod>2014-08-22T12:23:19-07:00</lastmod>
+        <lastmod>2014-08-24T23:47:55-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/archives/</loc>
-        <lastmod>2014-08-22T12:23:19-07:00</lastmod>
+        <lastmod>2014-08-24T23:47:55-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/blog/</loc>
-        <lastmod>2014-08-22T12:23:19-07:00</lastmod>
+        <lastmod>2014-08-24T23:47:55-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/</loc>
-        <lastmod>2014-08-22T12:23:19-07:00</lastmod>
+        <lastmod>2014-08-24T23:47:55-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/posts/</loc>
-        <lastmod>2014-08-22T12:23:19-07:00</lastmod>
+        <lastmod>2014-08-24T23:47:55-07:00</lastmod>
     </url>
     <url>
         <loc>http://jcruiz.co/robots.txt</loc>
-        <lastmod>2014-08-22T10:12:06-07:00</lastmod>
+        <lastmod>2014-08-22T23:37:12-07:00</lastmod>
     </url>
 </urlset>
