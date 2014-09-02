@@ -18,7 +18,12 @@ In other words, outside of the traditional corporate world developers don't talk
 
 The new era of enterprise software is already here and it is rapidly taking over the traditional way that, not too long ago for some of us, were the latest trends in programming: objects oriented, MVC, JSPs (specially) .... and I thought that at that point I knew it all.
 
-So how all of the above connects with blogging? Well, I just told you about my developer journey and where I'm right now so, as part of my new life:
+So how all of the above connects with blogging? Well, I just told you about my developer journey and where I'm right now so, the following is my new workflow journey for blogging:
+
+* Bought a domain the content produced from an easy to remember/access point.
+* Created a [heroku](http://heroku.com) account. Heroku allows me to host Ruby applications in their cloud, also it supports Ruby, Java, Node.js, Python, PHP, Clojure and, Scala.
+* Created a [CloudFlare](http://cloudflare.com) account that allows me to provide CDN-type features like caching images and content, which in my case is not critical but having perfomance is great.
+
 
 * I'm getting used to not having and IDE or ultra editor to create Java applications or blog posts.
 * I'm changing Java systax for Tritium, Uranium, Javascript, markdown and Sass.
