@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2014-08-29T18:42:57-07:00</updated>
+  <updated>2014-09-07T23:29:29-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -52,16 +52,18 @@ I come from the Java EE world - so IDEs, frameworks, installing appication serve
 
 <p>The new era of enterprise software is already here and it is rapidly taking over the traditional way that, not too long ago for some of us, were the latest trends in programming: objects oriented, MVC, JSPs (specially) …. and I thought that at that point I knew it all.</p>
 
-<p>So how all of the above connects with blogging? Well, I just told you about my developer journey and where I’m right now so, as part of my new life:</p>
+<p>So how all of the above connects with blogging? Well, I just told you about my developer journey and where I’m right now so, the following is my new workflow journey for blogging:</p>
 
 <ul>
-  <li>I’m getting used to not having and IDE or ultra editor to create Java applications or blog posts.</li>
-  <li>I’m changing Java systax for Tritium, Uranium, Javascript, markdown and Sass.</li>
-  <li>I’m getting used to using GitHub for pushing my code and also pushing my entire blog.</li>
-  <li>And, finally I’m using Heroku to host this blog that you are reading right now </li>
+  <li>Bought a domain so my blog was easy to remember/access.</li>
+  <li>Created a <a href="http://heroku.com">heroku</a> account. Heroku allows me to host Ruby applications in the cloud. Also, it supports apps from other languages besides Ruby like Java, Node.js, Python, PHP, Clojure and, Scala.</li>
+  <li>Created a <a href="http://cloudflare.com">CloudFlare</a> account that allows me to provide CDN-type features like caching images and content, which in my case is not critical but having perfomance is great.</li>
+  <li>I’m learning [Markdown] (http://daringfireball.net/projects/markdown/syntax) which gets used for writing the posts. Btw it’s awesome!</li>
+  <li>I’m learning to use GitHub for source control versioning of my application code and for pushing any changes to the blog to Heroku.</li>
+  <li>(Future) learn Sass to add customizations to the blog, Jekyll to add internationalization and who knows where this is going to stop…. I hope never.</li>
 </ul>
 
-<p>So yeah, this is one of my new hacking projects….</p>
+<p>Do you have any suggestions on other things that I should try?</p>
 ]]></content>
   </entry>
   
