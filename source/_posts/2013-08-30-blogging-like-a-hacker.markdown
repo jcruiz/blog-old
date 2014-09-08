@@ -23,7 +23,7 @@ So how all of the above connects with blogging? Well, I just told you about my d
 * Bought a domain so my blog was easy to remember/access.
 * Created a [heroku](http://heroku.com) account. Heroku allows me to host Ruby applications in the cloud. Also, it supports apps from other languages besides Ruby like Java, Node.js, Python, PHP, Clojure and, Scala.
 * Created a [CloudFlare](http://cloudflare.com) account that allows me to provide CDN-type features like caching images and content, which in my case is not critical but having perfomance is great.
-* I'm learning [Markdown] (http://daringfireball.net/projects/markdown/syntax) which gets used for writing the posts. Btw it's awesome!
+* I'm learning [Markdown](http://daringfireball.net/projects/markdown/syntax) which gets used for writing the posts. Btw it's awesome!
 * I'm learning to use GitHub for source control versioning of my application code and for pushing any changes to the blog to Heroku.
 * (Future) learn Sass to add customizations to the blog, Jekyll to add internationalization and who knows where this is going to stop.... I hope never.
 
