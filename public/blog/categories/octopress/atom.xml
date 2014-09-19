@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2014-09-08T11:16:07-07:00</updated>
+  <updated>2014-09-18T23:57:10-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -59,8 +59,8 @@ I come from the Java EE world - so IDEs, frameworks, installing appication serve
   <li>Created a <a href="http://heroku.com">heroku</a> account. Heroku allows me to host Ruby applications in the cloud. Also, it supports apps from other languages besides Ruby like Java, Node.js, Python, PHP, Clojure and, Scala.</li>
   <li>Created a <a href="http://cloudflare.com">CloudFlare</a> account that allows me to provide CDN-type features like caching images and content, which in my case is not critical but having perfomance is great.</li>
   <li>I’m learning <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> which gets used for writing the posts. Btw it’s awesome!</li>
-  <li>I’m learning to use GitHub for source control versioning of my application code and for pushing any changes to the blog to Heroku.</li>
-  <li>(Future) learn Sass to add customizations to the blog, Jekyll to add internationalization and who knows where this is going to stop…. I hope never.</li>
+  <li>I’m learning to use <a href="http://github.com">GitHub</a> for source control versioning of my application code and for pushing any changes to the blog to Heroku.</li>
+  <li>(Future) learn Sass to add customizations to the blog, <a href="http://jekyllrb.com/">Jekyll</a> to add <a href="https://github.com/screeninteraction/jekyll-multiple-languages-plugin">internationalization</a> and who knows where this is going to stop…. I hope never.</li>
 </ul>
 
 <p>Do you have any suggestions on other things that I should try?</p>
