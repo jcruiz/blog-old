@@ -4,7 +4,7 @@
   <title><![CDATA[Category: product management | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/product-management/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2015-02-26T02:26:28-08:00</updated>
+  <updated>2015-02-26T11:18:55-08:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -18,20 +18,21 @@
     <link href="http://jcruiz.co/blog/2015/02/26/2014-the-year-of-scrum-dot-dot-dot/"/>
     <updated>2015-02-26T02:12:00-08:00</updated>
     <id>http://jcruiz.co/blog/2015/02/26/2014-the-year-of-scrum-dot-dot-dot</id>
-    <content type="html"><![CDATA[<p>It’s been a while since my last post. With Q1 of 2015 almost over, it’s long overdue to have a new post out the door. I started this post at the end of 2014, but finally I’m taking the time to complete it and publish it.</p>
+    <content type="html"><![CDATA[<p>It’s been a while since my last post. With Q1 almost over, it’s long overdue to have a new post out the door. I originally started this post at the end of 2014, but finally I was able to make time and complete it and publish it.</p>
 
-<p>2014 was a really interesting and enlightening year for my product management career.  It marked the year that I got fully exposed to the rollout of <a href="http://en.wikipedia.org/wiki/Scrum_%28software_development%29">Scrum</a> within my organization from scratch and that now, a year later, has helped me and my team to be more organized on how the way that we built software.
-<!--more-->
-##Why did we chose Scrum?
-After going through a tortuous project of re-architecting some of the major building blocks from our Platform, we touched bottom. Many things factor-in to make the perfect storm which overall damaged the team morale and left us with many things that needed to be fixed.</p>
+<p>2014 was a really interesting and enlightening year for my product management career.  It marked the year that I got fully exposed to the rollout of <a href="http:// en.wikipedia.org/wiki/Scrum_%28software_development%29">Scrum</a> within my organization, we went from scratch and now a year later, it has helped me and my team to define good practices and processes to how we built software.
+<!--more--></p>
 
-<p>One of my colleagues and friend had prior experience with Scrum, he became the champion of Scrum and later our scrum master. He made sure that not the just the team and management were on board with the initiative, but also, he made sure that we didn’t take the “easy” and short way of making everything ourselves without the proper training. </p>
+<h2 id="why-did-we-chose-scrum">Why did we chose Scrum?</h2>
+<p>After going through a tortuous project of re-architecting some of the major building blocks from our Platform, we touched bottom. Many things factored-in to make the perfect storm which damaged the team morale and left us with many things that needed to be fixed at the end.</p>
+
+<p>One of my colleagues and good friend had prior experience with Scrum, he became the champion of Scrum and later our scrum master. He made sure that not the just the team and management were on board with the initiative, but also, he made sure that we didn’t take the “easy” and short way of making everything ourselves without the proper training. </p>
 
 <blockquote>
   <p><em>Lesson No.1: Don’t take shortcuts, a lot of companies start with the wrong foot, yet by the time is known, it’s already too late</em></p>
 </blockquote>
 
-<p>However, by the time we had training, the team was familiar with the basics of Scrum principles and even have had some <a href="https://www.scrum.org/scrumbut">“Scrum but”</a> sprints. That helped us to make the most out of the training. But same as with the school, one thing is the theory and one thing is the practice.</p>
+<p>By the time we had training, the team was familiar with the basics of Scrum principles and even have had some <a href="https://www.scrum.org/scrumbut">“Scrum but”</a> sprints. That helped us to make the most out of the training. But same as with the school, one thing is the theory and one thing is the practice.</p>
 
 <blockquote>
   <p><em>Lesson No.2: Do the homework before hand, come prepare and ask as many questions as possible</em></p>
@@ -54,16 +55,20 @@ After going through a tortuous project of re-architecting some of the major buil
   <li>On Product: Keep a healthy backlog and prioritize in the best possible way in an ocean of requirements (<em>see this article: http://www.forbes.com/sites/kylewong/2015/02/13/your-startup-is-overwhelmed-with-product-requests-now-what/</em>)</li>
   <li>Pruning the icebox</li>
   <li>People over processes </li>
+  <li>Develop further the role of the scrum master</li>
+  <li>Releasing usable software</li>
+  <li>Identifying the ROI associated with features</li>
 </ul>
 
 <h2 id="my-list-of-benefits-from-scrum">My list of Benefits from Scrum</h2>
 <ul>
   <li>Streamlined and organized product development cycle</li>
   <li>Shared knowledge</li>
-  <li>Clear definition of roles, clear distinction over engineering vs product</li>
+  <li>Clear definition of roles, </li>
+  <li>Clear distinction of functions engineering vs product</li>
   <li>Constant collaboration</li>
   <li>Constant feedback recollection</li>
-  <li>Understanding the art of prioritization</li>
+  <li>The art of prioritization</li>
   <li>Mastering JIRA</li>
   <li>Easier communication with other parts from the organization</li>
   <li>Getting things done</li>
