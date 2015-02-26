@@ -4,7 +4,8 @@ title: "The New Era of Colombian Innovators is here"
 date: 2014-09-28 22:34
 comments: true
 categories: [Colombia, enterpreneurship]
-published: false
+published: true
+---
 ![courtesy of @SWCol](https://pbs.twimg.com/media/Byqgbw4IcAAltGw.jpg)
 In recent weeks I've virtually followed 2 StartupWeekend events that took place in Bogota, Colombia that gave me a general ideal about the growth of the innovation ecosystem in the country and the new blood of entrepreneurs. 
 
