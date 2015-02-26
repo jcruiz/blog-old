@@ -6,18 +6,19 @@ comments: true
 categories: [product management]
 published: true
 ---
-It's been a while since my last post. With Q1 of 2015 almost over, it's long overdue to have a new post out the door. I started this post at the end of 2014, but finally I'm taking the time to complete it and publish it.
+It's been a while since my last post. With Q1 almost over, it's long overdue to have a new post out the door. I originally started this post at the end of 2014, but finally I was able to make time and complete it and publish it.
 
-2014 was a really interesting and enlightening year for my product management career.  It marked the year that I got fully exposed to the rollout of [Scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%29) within my organization from scratch and that now, a year later, has helped me and my team to be more organized on how the way that we built software.
+2014 was a really interesting and enlightening year for my product management career.  It marked the year that I got fully exposed to the rollout of [Scrum](http:// en.wikipedia.org/wiki/Scrum_%28software_development%29) within my organization, we went from scratch and now a year later, it has helped me and my team to define good practices and processes to how we built software.
 <!--more-->
-##Why did we chose Scrum?
-After going through a tortuous project of re-architecting some of the major building blocks from our Platform, we touched bottom. Many things factor-in to make the perfect storm which overall damaged the team morale and left us with many things that needed to be fixed.
 
-One of my colleagues and friend had prior experience with Scrum, he became the champion of Scrum and later our scrum master. He made sure that not the just the team and management were on board with the initiative, but also, he made sure that we didn't take the "easy" and short way of making everything ourselves without the proper training. 
+##Why did we chose Scrum?
+After going through a tortuous project of re-architecting some of the major building blocks from our Platform, we touched bottom. Many things factored-in to make the perfect storm which damaged the team morale and left us with many things that needed to be fixed at the end.
+
+One of my colleagues and good friend had prior experience with Scrum, he became the champion of Scrum and later our scrum master. He made sure that not the just the team and management were on board with the initiative, but also, he made sure that we didn't take the "easy" and short way of making everything ourselves without the proper training. 
 
 >*Lesson No.1: Don't take shortcuts, a lot of companies start with the wrong foot, yet by the time is known, it's already too late*
 
-However, by the time we had training, the team was familiar with the basics of Scrum principles and even have had some ["Scrum but"](https://www.scrum.org/scrumbut) sprints. That helped us to make the most out of the training. But same as with the school, one thing is the theory and one thing is the practice.
+By the time we had training, the team was familiar with the basics of Scrum principles and even have had some ["Scrum but"](https://www.scrum.org/scrumbut) sprints. That helped us to make the most out of the training. But same as with the school, one thing is the theory and one thing is the practice.
 
 > *Lesson No.2: Do the homework before hand, come prepare and ask as many questions as possible*
 
@@ -35,14 +36,18 @@ The major aspects from our current Sprint process circle around the respect for 
 - On Product: Keep a healthy backlog and prioritize in the best possible way in an ocean of requirements (*see this article: http://www.forbes.com/sites/kylewong/2015/02/13/your-startup-is-overwhelmed-with-product-requests-now-what/*)
 - Pruning the icebox
 - People over processes 
+- Develop further the role of the scrum master
+- Releasing usable software
+- Identifying the ROI associated with features
  
 ##My list of Benefits from Scrum
 - Streamlined and organized product development cycle
 - Shared knowledge
-- Clear definition of roles, clear distinction over engineering vs product
+- Clear definition of roles, 
+- Clear distinction of functions engineering vs product
 - Constant collaboration
 - Constant feedback recollection
-- Understanding the art of prioritization
+- The art of prioritization
 - Mastering JIRA
 - Easier communication with other parts from the organization
 - Getting things done
