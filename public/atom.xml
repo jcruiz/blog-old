@@ -4,7 +4,7 @@
   <title><![CDATA[The Other Radio]]></title>
   <link href="http://jcruiz.co/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2015-02-26T01:35:09-08:00</updated>
+  <updated>2015-02-26T01:36:44-08:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -31,16 +31,22 @@ After going through a tortuous project of re-architecting some of the major buil
   <p><em>Lesson No.1: Don’t take shortcuts, a lot of companies start with the wrong foot, yet by the time is known, it’s already too late</em></p>
 </blockquote>
 
-<p>However, by the time we had training, the team was familiar with the basics of Scrum principles and even have had some <a href="https://www.scrum.org/scrumbut">“Scrum but”</a> sprints. That helped us to make the most out of the training. But same as with the school, one thing is the theory and one thing is the practice.
-&gt; <em>Lesson No.2: Do the homework before hand, come prepare and ask as many questions as possible</em></p>
+<p>However, by the time we had training, the team was familiar with the basics of Scrum principles and even have had some <a href="https://www.scrum.org/scrumbut">“Scrum but”</a> sprints. That helped us to make the most out of the training. But same as with the school, one thing is the theory and one thing is the practice.</p>
+
+<blockquote>
+  <p><em>Lesson No.2: Do the homework before hand, come prepare and ask as many questions as possible</em></p>
+</blockquote>
 
 <h2 id="what-has-happened-a-year-later">What has happened a year later?</h2>
 <p>In the same way that the whole process started organically, we as team started adapting Scrum to our organization, making all kinds of adjustments like: sprint duration, estimation, story points, how we run demos and retrospectives, definition of done, managing escalations…, and the list goes on and on.</p>
 
 <p>Up until know we have what I consider a strong practice that is the sum of all the different adjustments, mentioned before and that by no means, keeps evolving. </p>
 
-<p>The major aspects from our current Sprint process circle around the respect for the engineer’s time and the high cost associated with switching contexts. It puts a big responsibility on Product to make all the necessary due diligence required to define, scope and prioritize what goes into a Sprint. It’s build on transparency, knowledge sharing and keeping honest to ourselves acknowledging the areas of improvement and taking actions to correct what is going in the wrong direction and, excel those things that we are doing well so we can continue doing them.
-&gt;<em>Lesson No.3 There has to be a continuous improvement on processes and methods that lead to better results and higher team morale</em></p>
+<p>The major aspects from our current Sprint process circle around the respect for the engineer’s time and the high cost associated with switching contexts. It puts a big responsibility on Product to make all the necessary due diligence required to define, scope and prioritize what goes into a Sprint. It’s build on transparency, knowledge sharing and keeping honest to ourselves acknowledging the areas of improvement and taking actions to correct what is going in the wrong direction and, excel those things that we are doing well so we can continue doing them.</p>
+
+<blockquote>
+  <p><em>Lesson No.3 There has to be a continuous improvement on processes and methods that lead to better results and higher team morale</em></p>
+</blockquote>
 
 <h2 id="what-are-the-major-challenges">What are the major challenges</h2>
 <ul>
