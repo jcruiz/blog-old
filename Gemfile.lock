@@ -23,7 +23,7 @@ GEM
       pygments.rb (~> 0.3.2)
     kgio (2.9.2)
     kramdown (0.14.2)
-    liquid (2.3.0)
+    liquid (2.6.2)
     maruku (0.7.1)
     posix-spawn (0.3.8)
     pygments.rb (0.3.7)
@@ -62,7 +62,7 @@ DEPENDENCIES
   haml (~> 3.1.7)
   jekyll (~> 0.12)
   kramdown
-  liquid (~> 2.3.0)
+  liquid (~> 2.6.2)
   pygments.rb (~> 0.3.4)
   rake (~> 0.9)
   rb-fsevent (~> 0.9)

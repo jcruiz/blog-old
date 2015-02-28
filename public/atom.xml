@@ -4,7 +4,7 @@
   <title><![CDATA[The Other Radio]]></title>
   <link href="http://jcruiz.co/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2015-02-26T11:18:55-08:00</updated>
+  <updated>2015-02-28T16:19:09-08:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -14,34 +14,167 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Getting Octopress Up and Running in OS X Yosemite]]></title>
+    <link href="http://jcruiz.co/blog/2015/02/28/getting-octopress-up-and-running-in-os-x-yosemite/"/>
+    <updated>2015-02-28T16:07:00-08:00</updated>
+    <id>http://jcruiz.co/blog/2015/02/28/getting-octopress-up-and-running-in-os-x-yosemite</id>
+    <content type="html"><![CDATA[<p>I started working on a new computer and it didn’t have any of the pre-requisites to work with Octopress installed, it took me a good amount of time to get everything up an ready. In this post I explain how to get Octopress up an running on OS X Yosemite.
+<!--more--></p>
+
+<h2 id="installing-ruby">Installing Ruby</h2>
+<p>I was not able to install Ruby at first becuase Homebrew was not installing and required a separate installation. The sympthoms were:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+<span class="line-number">32</span>
+<span class="line-number">33</span>
+<span class="line-number">34</span>
+<span class="line-number">35</span>
+<span class="line-number">36</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">curl -L https://get.rvm.io | bash -s stable --ruby
+</span><span class="line">  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+</span><span class="line">                                 Dload  Upload   Total   Spent    Left  Speed
+</span><span class="line">100   184  100   184    0     0    181      0  0:00:01  0:00:01 --:--:--   181
+</span><span class="line">100 22817  100 22817    0     0  16792      0  0:00:01  0:00:01 --:--:-- 67706
+</span><span class="line">Downloading https://github.com/wayneeseguin/rvm/archive/1.26.10.tar.gz
+</span><span class="line">Downloading https://github.com/wayneeseguin/rvm/releases/download/1.26.10/1.26.10.tar.gz.asc
+</span><span class="line">Found PGP signature at: 'https://github.com/wayneeseguin/rvm/releases/download/1.26.10/1.26.10.tar.gz.asc',
+</span><span class="line">but no GPG software exists to validate it, skipping.
+</span><span class="line">
+</span><span class="line">Upgrading the RVM installation in /Users/jz/.rvm/
+</span><span class="line">    RVM PATH line found in /Users/jz/.mkshrc /Users/jz/.profile /Users/jz/.bashrc /Users/jz/.zshrc.
+</span><span class="line">    RVM sourcing line found in /Users/jz/.profile /Users/jz/.bash_profile /Users/jz/.zlogin.
+</span><span class="line">Upgrade of RVM in /Users/jz/.rvm/ is complete.
+</span><span class="line">
+</span><span class="line"># Juan Camilo Ruiz,
+</span><span class="line">#
+</span><span class="line">#   Thank you for using RVM!
+</span><span class="line">#   We sincerely hope that RVM helps to make your life easier and more enjoyable!!!
+</span><span class="line">#
+</span><span class="line"># ~Wayne, Michal &amp; team.
+</span><span class="line">
+</span><span class="line">In case of problems: http://rvm.io/help and https://twitter.com/rvm_io
+</span><span class="line">
+</span><span class="line">Upgrade Notes:
+</span><span class="line">
+</span><span class="line">  * No new notes to display.
+</span><span class="line">
+</span><span class="line">rvm 1.26.10 (latest) by Wayne E. Seguin &lt;wayneeseguin@gmail.com&gt;, Michal Papis &lt;mpapis@gmail.com&gt; [https://rvm.io/]
+</span><span class="line">Searching for binary rubies, this might take some time.
+</span><span class="line">No binary rubies available for: osx/10.10/x86_64/ruby-2.2.0.
+</span><span class="line">Continuing with compilation. Please read 'rvm help mount' to get more information on binary rubies.
+</span><span class="line">Checking requirements for osx.
+</span><span class="line">About to install Homebrew, press `Enter` for default installation in `/usr/local`,
+</span><span class="line">type new path if you wish custom Homebrew installation (the path needs to be writable for user)
+</span><span class="line">: Requirements installation failed with status: 1.</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>What gave me a more clear indication that something was missing was when I attempted to install Homebrew by itself</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+</span><span class="line">ruby: no code specified for -e (RuntimeError)</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>With more digging around, I found this <a href="http://stackoverflow.com/questions/22776751/installing-rvm-requirements-installation-failed-with-status-1">post</a> at StackOverflow where basically explained it was because I never executed Xcode on this machine before, so I had to manually open it one time which kicked off the installation of additional components. Onces that finished I was able to install Homebrew and I executed brew doctor</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">brew doctor</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>After that I hit another roadblock during the installation of Ruby 1.9.3</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">rvm install ruby 1.9.3-p551
+</span><span class="line">...
+</span><span class="line">checking whether we are cross compiling... configure: error: in `/Users/jz/.rvm/src/ruby-1.9.3-p551':
+</span><span class="line">configure: error: cannot run C compiled programs.
+</span><span class="line">If you meant to cross compile, use `--host'.
+</span><span class="line">See `config.log' for more details
+</span><span class="line">There has been an error while running configure. Halting the installation.</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Found the issue again and basically I needed to install more xcode dependencies. I did it by executing</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">xcode-select --install</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>After all of that I decided to upgrade the Ruby version used by Octopress to version 2.2.0. To do that I edit the version of ruby in the following files:</p>
+
+<pre><code>.rbenv-version
+.ruby-version
+Gemfile
+</code></pre>
+
+<p>Last I got a warning about htmltags in liquid that basically can be solved by upgrading liquid to version. 2.6.2. I changed the version in the Gemfile.lock and Gemfile and executed </p>
+
+<pre><code>bundle install
+</code></pre>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[2014 the Year of Scrum...]]></title>
     <link href="http://jcruiz.co/blog/2015/02/26/2014-the-year-of-scrum-dot-dot-dot/"/>
     <updated>2015-02-26T02:12:00-08:00</updated>
     <id>http://jcruiz.co/blog/2015/02/26/2014-the-year-of-scrum-dot-dot-dot</id>
-    <content type="html"><![CDATA[<p>It’s been a while since my last post. With Q1 almost over, it’s long overdue to have a new post out the door. I originally started this post at the end of 2014, but finally I was able to make time and complete it and publish it.</p>
+    <content type="html"><![CDATA[<p>It’s been a while since my last post. With Q1 almost over, it was long overdue to have a new post out the door by now. I originally started this post at the end of 2014, but finally I was able to make the space to complete it and finally publish it.</p>
 
-<p>2014 was a really interesting and enlightening year for my product management career.  It marked the year that I got fully exposed to the rollout of <a href="http:// en.wikipedia.org/wiki/Scrum_%28software_development%29">Scrum</a> within my organization, we went from scratch and now a year later, it has helped me and my team to define good practices and processes to how we built software.
+<p>2014 was a really interesting and enlightening year for my product management career.  It marked the year that I got fully exposed to the rollout of <a href="http:// en.wikipedia.org/wiki/Scrum_%28software_development%29">Scrum</a> at the organization that I currently work on, we started from scratch and now, a year later I realize how much progress we’ve made and how much it has helped me and my team to define good practices and processes on how we built software.
 <!--more--></p>
 
 <h2 id="why-did-we-chose-scrum">Why did we chose Scrum?</h2>
-<p>After going through a tortuous project of re-architecting some of the major building blocks from our Platform, we touched bottom. Many things factored-in to make the perfect storm which damaged the team morale and left us with many things that needed to be fixed at the end.</p>
+<p>After going through a tortuous project of re-architecting some of the major building blocks from our Platform, we touched bottom. Many things factored-in to make the perfect storm which had a big impact on the team’s morale and left us with many things that needed to be fixed at the end because the ask was too big.</p>
 
-<p>One of my colleagues and good friend had prior experience with Scrum, he became the champion of Scrum and later our scrum master. He made sure that not the just the team and management were on board with the initiative, but also, he made sure that we didn’t take the “easy” and short way of making everything ourselves without the proper training. </p>
+<p>One of my colleagues and good friend had prior experience with Scrum, he became the internal champion of Scrum and soon after our first scrum master. He made sure that not just the team and management were on board with the idea, but also, he made sure that we didn’t take the “easy” and short way of doing Scrum without the proper training. </p>
 
 <blockquote>
-  <p><em>Lesson No.1: Don’t take shortcuts, a lot of companies start with the wrong foot, yet by the time is known, it’s already too late</em></p>
+  <p><em>Lesson No.1: Don’t take shortcuts, a lot of companies start with the wrong foot, yet by the time they realize, it’s already too late</em></p>
 </blockquote>
 
-<p>By the time we had training, the team was familiar with the basics of Scrum principles and even have had some <a href="https://www.scrum.org/scrumbut">“Scrum but”</a> sprints. That helped us to make the most out of the training. But same as with the school, one thing is the theory and one thing is the practice.</p>
+<p>By the time we had training, the team was familiar with some of the basics principles from Scrum and even have had some <a href="https://www.scrum.org/scrumbut">“Scrum but”</a> sprints already. That in fact, helped us to make the most out of the training. But same as with the school, one thing is the theory and one thing is the practice…</p>
 
 <blockquote>
-  <p><em>Lesson No.2: Do the homework before hand, come prepare and ask as many questions as possible</em></p>
+  <p><em>Lesson No.2: Do the homework before defining processess, test the waters and take formal training. Come prepare and ask as many questions as possible</em></p>
 </blockquote>
 
 <h2 id="what-has-happened-a-year-later">What has happened a year later?</h2>
 <p>In the same way that the whole process started organically, we as team started adapting Scrum to our organization, making all kinds of adjustments like: sprint duration, estimation, story points, how we run demos and retrospectives, definition of done, managing escalations…, and the list goes on and on.</p>
 
-<p>Up until know we have what I consider a strong practice that is the sum of all the different adjustments, mentioned before and that by no means, keeps evolving. </p>
+<p>Up until know we have what I consider a good practice that is the sum of all the different adjustments, some of which I mentioned above and that will always require to keep evolving. </p>
 
 <p>The major aspects from our current Sprint process circle around the respect for the engineer’s time and the high cost associated with switching contexts. It puts a big responsibility on Product to make all the necessary due diligence required to define, scope and prioritize what goes into a Sprint. It’s build on transparency, knowledge sharing and keeping honest to ourselves acknowledging the areas of improvement and taking actions to correct what is going in the wrong direction and, excel those things that we are doing well so we can continue doing them.</p>
 
