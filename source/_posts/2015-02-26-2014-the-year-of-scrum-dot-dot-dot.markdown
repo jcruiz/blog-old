@@ -4,7 +4,6 @@ title: "2014 The Year of Scrum..."
 date: 2015-02-26 02:12
 comments: true
 categories: [product management]
-published: true
 ---
 
 It's been a while since my last post. With Q1 almost over, it was long overdue to have a new post out the door by now. I originally started this post at the end of 2014, but finally I was able to make the space to complete it and finally publish it.

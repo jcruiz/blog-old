@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: octopress | The Other Radio]]></title>
-  <link href="http://jcruiz.co/blog/categories/octopress/atom.xml" rel="self"/>
+  <title><![CDATA[Category: OS X | The Other Radio]]></title>
+  <link href="http://jcruiz.co/blog/categories/os-x/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
   <updated>2015-02-28T16:46:37-08:00</updated>
   <id>http://jcruiz.co/</id>
@@ -147,60 +147,6 @@ Gemfile
 <pre><code>bundle install
 </code></pre>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A new theme and performance added to the blog]]></title>
-    <link href="http://jcruiz.co/blog/2014/08/22/a-new-theme-for-the-blog/"/>
-    <updated>2014-08-22T23:42:00-07:00</updated>
-    <id>http://jcruiz.co/blog/2014/08/22/a-new-theme-for-the-blog</id>
-    <content type="html"><![CDATA[<p>This week I started looking at how to modify or replace the “classic” theme that comes off-the-shelf with Octopress. I was positively surprised when I found the glorious <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd party Octopress themes</a>. I took the time to check most of them and it was great to see a consistent high-quality around most of them. Also, how easy it was to add them into the blog. On top of that, I added a few experimental performance settings to speed up the blog using the limited free infrastructure. Read on to get more details.
-<!--more--></p>
-
-<p>The theme that I liked the most (which is the one that you are looking at right now) is called <a href="http://https://github.com/sevenadrian/MediumFox">MediumFox</a>, created by Adrian Artiles. It’sinspired on the design of Medium and FoxSlide.</p>
-
-<p>Besides being fully responsive, it contains really nice visual design: from the picture to the font, as well as the top bio which is a great way to present the blog to new visitors.</p>
-
-<p>When installing Octopress themes I recommend that you install them using git submodules, this way everytime you deploy the blog to your server, it will pull the latest changes to the theme by free which is really good.</p>
-
-<p>Another improvement that I added to the blog, was changing the default ruby web server that octopress uses locally which is the sames that Heroku uses when deployment-called WEBrick.</p>
-
-<p>After installing the theme I received a console message from Heroku advicing changing the web server to <a href="http://unicorn.bogomips.org/">Unicorn</a>. The interesting part about unicorn is the fact that using a single Dyno (heroku’s processor), with Unicorn you can have up to 4 workers in pararell in comparison with a single worker that WEBrick offers. Heroky has some really nice instructions about how to add unicorn to your Ruby application <a href="https://devcenter.heroku.com/articles/rails-unicorn">here</a></p>
-
-<p>Although the blog didn’t have any performance issues that I’m aware off, this I consider it my personal playground and I’ll continue adding things as I’m learning about them.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Blogging Like a Hacker]]></title>
-    <link href="http://jcruiz.co/blog/2013/08/30/blogging-like-a-hacker/"/>
-    <updated>2013-08-30T13:30:00-07:00</updated>
-    <id>http://jcruiz.co/blog/2013/08/30/blogging-like-a-hacker</id>
-    <content type="html"><![CDATA[<p>My old blogs used well known blogging engines: blogger and MovableType. For years blogger has been able to keep up with trends - in my opinion always catching up. However, I didn’t want to simply create a new blog on blogger; something was just not right.</p>
-
-<p>One day a technical blog cought my attention because of its look and feel and nice caligraphy. It was <a href="http://octopress.org/">Octopress</a> which was created under the premise that is a blogging framework for hackers.</p>
-
-<p>So, what does it reallly mean? Let me give you more context info:
-<!--more-->
-I come from the Java EE world - so IDEs, frameworks, installing appication servers, compiling and running - are all very well known to me. However when I joined <a href="http://moovweb.com">Moovweb</a> I realized something that I had been seeing for a while: the new companies are not sold by Java or .Net anymore.</p>
-
-<p>In other words, outside of the traditional corporate world developers don’t talk anymore about enterprise EJBs, Controllers or JSF, and instead the dictionary words sound something like Go, JavaScript, Ruby, HTML 5, CSS3, Sass, Bootstrap, Angular, etc….</p>
-
-<p>The new era of enterprise software is already here and it is rapidly taking over the traditional way that, not too long ago for some of us, were the latest trends in programming: objects oriented, MVC, JSPs (specially) …. and I thought that at that point I knew it all.</p>
-
-<p>So how all of the above connects with blogging? Well, I just told you about my developer journey and where I’m right now so, the following is my new workflow journey for blogging:</p>
-
-<ul>
-  <li>Bought a domain so my blog was easy to remember/access.</li>
-  <li>Created a <a href="http://heroku.com">heroku</a> account. Heroku allows me to host Ruby applications in the cloud. Also, it supports apps from other languages besides Ruby like Java, Node.js, Python, PHP, Clojure and, Scala.</li>
-  <li>Created a <a href="http://cloudflare.com">CloudFlare</a> account that allows me to provide CDN-type features like caching images and content, which in my case is not critical but having perfomance is great.</li>
-  <li>I’m learning <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> which gets used for writing the posts. Btw it’s awesome!</li>
-  <li>I’m learning to use <a href="http://github.com">GitHub</a> for source control versioning of my application code and for pushing any changes to the blog to Heroku.</li>
-  <li>(Future) learn Sass to add customizations to the blog, <a href="http://jekyllrb.com/">Jekyll</a> to add <a href="https://github.com/screeninteraction/jekyll-multiple-languages-plugin">internationalization</a> and who knows where this is going to stop…. I hope never.</li>
-</ul>
-
-<p>Do you have any suggestions on other things that I should try?</p>
 ]]></content>
   </entry>
   
