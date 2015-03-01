@@ -6,6 +6,7 @@ comments: true
 categories: [product management]
 published: true
 ---
+
 It's been a while since my last post. With Q1 almost over, it was long overdue to have a new post out the door by now. I originally started this post at the end of 2014, but finally I was able to make the space to complete it and finally publish it.
 
 2014 was a really interesting and enlightening year for my product management career.  It marked the year that I got fully exposed to the rollout of [Scrum](http:// en.wikipedia.org/wiki/Scrum_%28software_development%29) at the organization that I currently work on, we started from scratch and now, a year later I realize how much progress we've made and how much it has helped me and my team to define good practices and processes on how we built software.
