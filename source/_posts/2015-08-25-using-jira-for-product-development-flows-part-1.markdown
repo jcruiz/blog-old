@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using JIRA for Product Development Flows part 1"
+title: "Using JIRA for Product Development Cycles part 1"
 date: 2015-08-25 00:01
 comments: true
 categories: [product management]
@@ -10,10 +10,10 @@ categories: [product management]
 
 A popular tool for managing software product projects is [JIRA](https://www.atlassian.com/software/jira). I've been an active user of this tool as well as [Trello](https://trello.com/) in the last few years and have found different ways that these tools can be used for organizing product development cycles. 
 
-In general the tools are only the channel used by the organization to have a central location where the engineering teams track release cycle, triage bugs and escalations. Also the Product team can use this tools to communicate current features, plan releases and define roadmap.
+The tools are only the channel used by the organization to have a central location where the engineering teams tracks product implementations, level of effort, bugs and, escalations. At the same time, the Product team can use the tools to communicate current features, prioritize features, plan out new releases and even define roadmap.
 
-But as with any tool, if you don't proactively maintain the information that resides in there. Information quickly becomes outdated and easily forgotten.
-In this article I would like to go over one of the development flows that we used on a large team.
+But as with any tool, if you don't proactively maintain the information that resides in there, the information quickly becomes outdated and easily forgotten.
+In this article I would like to describe how I've use JIRA as a Product within the software development lifecycle.
 <!--more-->
 
 ##JIRA Projects
@@ -38,6 +38,6 @@ Although we used JIRA,  in reality this project could be managed with a simpler 
 **Purpose:** The engineering team window to the outside world. Whenever something "urgent" that required attention from engineering, the products and engineering leads would triage the issue and request, ask for more information, or create an escalation in the current sprint o planned for the upcoming sprint.  This way we protected our Active Sprint board the most that we could.
 
 ###Final Remarks
-Remember that JIRA allows you to do bulk changes, which come really handy when moving things from project to project. Also, we had to keep certain guidelines that helped us to maintain consistency across multiple projects. For example: same components set.
+Remember that JIRA allows you to do bulk changes, which come really handy when moving things from project to project. Also, we had to keep certain guidelines that helped us to maintain consistency across multiple projects. For example: same components set, common labels, etc.
 
-And last but not least, purge your icebox. It's super easy to put things in but really hard to get them out.
+And last but not least, purge your icebox often. It's super easy to put things in but really hard to get them out. At the end everything will look as it's important.
