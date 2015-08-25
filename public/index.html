@@ -93,6 +93,82 @@ A Colombian geeking out in the Silicon Valley about me I&#8217;m Juan Camilo Rui
           <div class="row">
             <div class="col-md-offset-3 col-md-6">
               <article>
+  <h2><a href="/blog/2015/08/25/using-jira-for-product-development-flows-part-1/">Using JIRA for Product Development Flows Part 1</a></h2>
+  
+  <p>
+    <p><img src="https://www.atlassian.com/wac/software/jira/sectionWrap/0/column/0/imageBinary/jira_rbg_darkblue.svg" alt="" width="300px" /></p>
+
+<p>A popular tool for managing software product projects is <a href="https://www.atlassian.com/software/jira">JIRA</a>. I’ve been an active user of this tool as well as <a href="https://trello.com/">Trello</a> in the last few years and have found different ways that these tools can be used for organizing product development cycles. </p>
+
+<p>In general the tools are only the channel used by the organization to have a central location where the engineering teams track release cycle, triage bugs and escalations. Also the Product team can use this tools to communicate current features, plan releases and define roadmap.</p>
+
+<p>But as with any tool, if you don’t proactively maintain the information that resides in there. Information quickly becomes outdated and easily forgotten.
+In this article I would like to go over one of the development flows that we used on a large team.</p>
+
+<h2 id="jira-projects">JIRA Projects</h2>
+
+<p>We created multiple projects that serve as layers or filters to catalog different types of asks for the engineering team. From feature requests, to escalations, to bug fixes. We quickly understood that in order to maintain an organized and clean engineering backlog we needed to protected at all costs. So, engineering leads and product were responsible to manage the following buckets as described below:</p>
+
+<h3 id="feature-requests---fr">Feature Requests - FR</h3>
+<p><strong>Owner:</strong> Product team
+<strong>Purpose</strong>: The bucket where the Product team receives and manages feature requests, enhancements, documentation issues, etc.
+Although we used JIRA,  in reality this project could be managed with a simpler and more friendly tool like Trello.</p>
+
+<h3 id="icebox---ib">Icebox - IB</h3>
+<p><strong>Owner:</strong> Product/Engineering
+<strong>Purpose:</strong> This project was used as a <a href="https://www.atlassian.com/agile/kanban">agile Kanban</a> board. Here,  product and engineering would place upcoming engineering work. Prior to sprint planning each team made sure that the most important asks where registered and presented during sprint planning meeting. We had a dedicated column called (next sprint). Once the sprint backlog was defined we would move all stories for the sprint into the <strong>Active Sprint</strong> bucket.</p>
+
+<h3 id="active-sprint---as">Active Sprint - AS</h3>
+<p><strong>Owner:</strong> Product/Engineering
+<strong>Purpose:</strong>  This project can be setup either as a <a href="https://www.atlassian.com/agile/scrum">Scrum board</a> or a Kanban board. It contains the engineering load for the current sprint. We worked hard to be realistic and whatever was in the sprint would be finished at the end. This particularly is a great exercise to keep a good team morale.</p>
+
+<h3 id="escalations---esc">Escalations - ESC</h3>
+<p><strong>Owner:</strong> Product/Engineering leads
+<strong>Purpose:</strong> The engineering team window to the outside world. Whenever something “urgent” that required attention from engineering, the products and engineering leads would triage the issue and request, ask for more information, or create an escalation in the current sprint o planned for the upcoming sprint.  This way we protected our Active Sprint board the most that we could.</p>
+
+<h3 id="final-remarks">Final Remarks</h3>
+<p>Remember that JIRA allows you to do bulk changes, which come really handy when moving things from project to project. Also, we had to keep certain guidelines that helped us to maintain consistency across multiple projects. For example: same components set.</p>
+
+<p>And last but not least, purge your icebox. It’s super easy to put things in but really hard to get them out.</p>
+
+  </p>
+  <span class="meta">
+    written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2015-08-25T00:01:00-07:00" pubdate data-updated="true">Aug 25<span>th</span>, 2015</time>
+    
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/product-management/'>product management</a>
+  
+</span>
+
+
+  </span>
+
+  
+</article>
+
+            </div>
+          </div>
+        
+          
+          <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+              <article>
   <h2><a href="/blog/2015/02/28/getting-octopress-up-and-running-in-os-x-yosemite/">Getting Octopress Up and Running in OS X Yosemite</a></h2>
   
   <p>
@@ -515,56 +591,6 @@ in
 
   
     <a class="full-article-link pull-right" rel="full-article" href="/blog/2013/10/03/installing-chrome-on-rhel6-dot-3/">Read on &rarr;</a>
-  
-</article>
-
-            </div>
-          </div>
-        
-          
-          <div class="row">
-            <div class="col-md-offset-3 col-md-6">
-              <article>
-  <h2><a href="/blog/2013/08/30/blogging-like-a-hacker/">Blogging Like a Hacker</a></h2>
-  
-  <p>
-    <p>My old blogs used well known blogging engines: blogger and MovableType. For years blogger has been able to keep up with trends - in my opinion always catching up. However, I didn’t want to simply create a new blog on blogger; something was just not right.</p>
-
-<p>One day a technical blog cought my attention because of its look and feel and nice caligraphy. It was <a href="http://octopress.org/">Octopress</a> which was created under the premise that is a blogging framework for hackers.</p>
-
-<p>So, what does it reallly mean? Let me give you more context info:
-</p>
-
-  </p>
-  <span class="meta">
-    written 
-
-
-
-
-
-
-
-
-  
-
-
-
-<time datetime="2013-08-30T13:30:00-07:00" pubdate data-updated="true">Aug 30<span>th</span>, 2013</time>
-    
-
-in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/hacking/'>hacking</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>
-  
-</span>
-
-
-  </span>
-
-  
-    <a class="full-article-link pull-right" rel="full-article" href="/blog/2013/08/30/blogging-like-a-hacker/">Read on &rarr;</a>
   
 </article>
 
