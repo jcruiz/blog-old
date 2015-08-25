@@ -14,6 +14,7 @@ In general the tools are only the channel used by the organization to have a cen
 
 But as with any tool, if you don't proactively maintain the information that resides in there. Information quickly becomes outdated and easily forgotten.
 In this article I would like to go over one of the development flows that we used on a large team.
+<!--more-->
 
 ##JIRA Projects
 

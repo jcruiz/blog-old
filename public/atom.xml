@@ -4,7 +4,7 @@
   <title><![CDATA[The Other Radio]]></title>
   <link href="http://jcruiz.co/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2015-08-25T00:25:25-07:00</updated>
+  <updated>2015-08-25T00:43:29-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -25,7 +25,8 @@
 <p>In general the tools are only the channel used by the organization to have a central location where the engineering teams track release cycle, triage bugs and escalations. Also the Product team can use this tools to communicate current features, plan releases and define roadmap.</p>
 
 <p>But as with any tool, if you don’t proactively maintain the information that resides in there. Information quickly becomes outdated and easily forgotten.
-In this article I would like to go over one of the development flows that we used on a large team.</p>
+In this article I would like to go over one of the development flows that we used on a large team.
+<!--more--></p>
 
 <h2 id="jira-projects">JIRA Projects</h2>
 
