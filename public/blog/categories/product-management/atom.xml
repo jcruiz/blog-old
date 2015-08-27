@@ -4,7 +4,7 @@
   <title><![CDATA[Category: product management | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/product-management/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2015-08-25T08:05:22-07:00</updated>
+  <updated>2015-08-26T20:52:52-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -20,39 +20,45 @@
     <id>http://jcruiz.co/blog/2015/08/25/using-jira-for-product-development-flows-part-1</id>
     <content type="html"><![CDATA[<p><img src="https://www.atlassian.com/wac/software/jira/sectionWrap/0/column/0/imageBinary/jira_rbg_darkblue.svg" alt="" width="300px" /></p>
 
-<p>A popular tool for managing software product projects is <a href="https://www.atlassian.com/software/jira">JIRA</a>. I’ve been an active user of this tool as well as <a href="https://trello.com/">Trello</a> in the last few years and have found different ways that these tools can be used for organizing product development cycles. </p>
+<p><a href="https://www.atlassian.com/software/jira">JIRA</a> is a popular tool for managing software product projects. In my role as Product I’ve been an active user of this tool as well as <a href="https://trello.com/">Trello</a>, <a href="https://www.pivotaltracker.com/">Pivotal Tracker</a> among others in the last few years and, have found different ways that these tools can be used for organizing our product development cycles. </p>
 
-<p>The tools are only the channel used by the organization to have a central location where the engineering teams tracks product implementations, level of effort, bugs and, escalations. At the same time, the Product team can use the tools to communicate current features, prioritize features, plan out new releases and even define roadmap.</p>
+<p>The tools are only the channel used by the organization to have a central location where the engineering teams tracks product implementation tasks, level of effort, bugs and, escalations. At the same time, the Product team uses the tools to communicate current features that are implemented, prioritize new features, plan out new releases and even define product roadmaps.</p>
 
-<p>But as with any tool, if you don’t proactively maintain the information that resides in there, the information quickly becomes outdated and easily forgotten.
-In this article I would like to describe how I’ve use JIRA as a Product within the software development lifecycle.
+<p>But as with any tool, if you don’t proactively maintain the information, it quickly becomes outdated and easily forgotten. In this article I would like to describe how I’ve use JIRA as a Product within the software development lifecycle.
 <!--more--></p>
 
 <h2 id="jira-projects">JIRA Projects</h2>
 
-<p>We created multiple projects that serve as layers or filters to catalog different types of asks for the engineering team. From feature requests, to escalations, to bug fixes. We quickly understood that in order to maintain an organized and clean engineering backlog we needed to protected at all costs. So, engineering leads and product were responsible to manage the following buckets as described below:</p>
+<p>We created multiple JIRA projects for our product development that serve as layers or filters in which we would catalog all the different asks for the engineering team: from feature requests, to escalations, to bug fixes. We quickly understood that in order to maintain an organized engineering backlog, we needed to protected it at all cost. </p>
+
+<p>For that, the engineering leaders and product team took the responsibility to manage the following buckets as described below:</p>
 
 <h3 id="feature-requests---fr">Feature Requests - FR</h3>
-<p><strong>Owner:</strong> Product team
-<strong>Purpose</strong>: The bucket where the Product team receives and manages feature requests, enhancements, documentation issues, etc.
-Although we used JIRA,  in reality this project could be managed with a simpler and more friendly tool like Trello.</p>
+<p><strong>Owner:</strong> Product team</p>
+
+<p><strong>Purpose</strong>: The bucket where the product team receives and manages feature requests, enhancements, documentation issues, etc. After the product team evaluated and defined how to best address a given feature requests. We would either approve the feature request via a story or set of stories that go in the icebox or, we would decline the feature request.
+Although we used JIRA,  in reality this project could be managed with a simpler and more friendly tool like Trello. You can get created and use tools that are easy to use by all the parts of the organization.</p>
 
 <h3 id="icebox---ib">Icebox - IB</h3>
-<p><strong>Owner:</strong> Product/Engineering
-<strong>Purpose:</strong> This project was used as a <a href="https://www.atlassian.com/agile/kanban">agile Kanban</a> board. Here,  product and engineering would place upcoming engineering work. Prior to sprint planning each team made sure that the most important asks where registered and presented during sprint planning meeting. We had a dedicated column called (next sprint). Once the sprint backlog was defined we would move all stories for the sprint into the <strong>Active Sprint</strong> bucket.</p>
+<p><strong>Owner:</strong> Product/Engineering</p>
+
+<p><strong>Purpose:</strong> This project was used as a <a href="https://www.atlassian.com/agile/kanban">agile Kanban</a> board. Here,  product and engineering would place upcoming engineering work. Prior to sprint planning, each team made sure that the most important stories based on eachother’s priorities where registered and presented during sprint planning meeting. We had a dedicated column called (next sprint). Once the sprint backlog was defined we move all stories for the new sprint into the <strong>Active Sprint</strong> project.</p>
 
 <h3 id="active-sprint---as">Active Sprint - AS</h3>
-<p><strong>Owner:</strong> Product/Engineering
-<strong>Purpose:</strong>  This project can be setup either as a <a href="https://www.atlassian.com/agile/scrum">Scrum board</a> or a Kanban board. It contains the engineering load for the current sprint. We worked hard to be realistic and whatever was in the sprint would be finished at the end. This particularly is a great exercise to keep a good team morale.</p>
+<p><strong>Owner:</strong> Product/Engineering</p>
+
+<p><strong>Purpose:</strong>  This project can be setup either as a <a href="https://www.atlassian.com/agile/scrum">Scrum board</a> or a Kanban board. It contains the engineering tasks for the current sprint. The team worked to have real expectaions and whatever was in the sprint would gotten finished on the sprint. This particularly is a great exercise to keep a good team morale.</p>
 
 <h3 id="escalations---esc">Escalations - ESC</h3>
-<p><strong>Owner:</strong> Product/Engineering leads
-<strong>Purpose:</strong> The engineering team window to the outside world. Whenever something “urgent” that required attention from engineering, the products and engineering leads would triage the issue and request, ask for more information, or create an escalation in the current sprint o planned for the upcoming sprint.  This way we protected our Active Sprint board the most that we could.</p>
+<p><strong>Owner:</strong> Product/Engineering leads</p>
+
+<p><strong>Purpose:</strong> The engineering team’s window to the outside world. A project used by everyone in the organization to register things that were “urgent” or that required attention from engineering. The product team and engineering leaders would triage the issues and requests. 
+As part of the triage the owner would either gather more information, or create an escalation that could go directly into the current sprint (AS project) to be addressed immediately or go into the icebox (IB) to be consider for a future sprint.</p>
 
 <h3 id="final-remarks">Final Remarks</h3>
-<p>Remember that JIRA allows you to do bulk changes, which come really handy when moving things from project to project. Also, we had to keep certain guidelines that helped us to maintain consistency across multiple projects. For example: same components set, common labels, etc.</p>
+<p>Remember that JIRA allows you to do bulk changes, which come really handy when moving things from project to project. Also, keep common guidelines that help to maintain consistency across multiple JIRA projects. For example: same components set, common labels, notation, etc.</p>
 
-<p>And last but not least, purge your icebox often. It’s super easy to put things in but really hard to get them out. At the end everything will look as it’s important.</p>
+<p>And last but not least, <strong>purge your icebox</strong> often. It’s super easy to put things in but really hard to get them out. At the end everything will look as it’s important.</p>
 ]]></content>
   </entry>
   
