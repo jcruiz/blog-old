@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Bogota | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/bogota/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2015-08-26T20:52:52-07:00</updated>
+  <updated>2017-03-21T23:17:29-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -32,7 +32,7 @@ Bogota is a very large city that much like any other major city in the world lik
 
 <h3 id="usaquen">Usaquen</h3>
 <p style="text-align: center; font-weight: bold;">What used to be a small town located in the outskirts of the city, it's now a neighborhood. Though it is one of the most vibrant areas where you can find great restaurants and bars. You could literally try different things in every visit.</p>
-<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/usaquen_zpsbfe09de2.jpg"></p>
+<p>{% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/usaquen_zpsbfe09de2.jpg %}</p>
 
 <p>Recommendations:<br />
 Usaquen has a famous flea market on Sundays where you can experience the great diversity of Bogota and buy really good handcrafts and souvenirs. Also right next to Usaquen there is a nice shopping mall-Hacienda Santa Barbara.</p>
@@ -46,7 +46,7 @@ Usaquen has a famous flea market on Sundays where you can experience the great d
 
 <h3 id="parque-93">Parque 93</h3>
 <p style="text-align: center; font-weight: bold;">A park in the north that is surrounded by nice bars and restaurants. A great place to go for dinner + drinks/party</p>
-<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/93_zps71f8cfa8.jpg"></p>
+<p>{% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/93_zps71f8cfa8.jpg %}</p>
 
 <p>Recommendations:</p>
 
@@ -64,7 +64,7 @@ Usaquen has a famous flea market on Sundays where you can experience the great d
 
 <h3 id="zona-t">Zona T</h3>
 <p style="text-align: center; font-weight: bold;">Is Bogota's version of San Francisco's Union Square. Upscale shopping + tons of alternatives to eat and party</p>
-<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonaT_zps0aaf280e.jpg"></p>
+<p>{% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonaT_zps0aaf280e.jpg %}</p>
 
 <p>Recommendations:</p>
 
@@ -82,7 +82,7 @@ Usaquen has a famous flea market on Sundays where you can experience the great d
 
 <h3 id="zona-g">Zona G</h3>
 <p style="text-align: center; font-weight: bold;">Established as one of the fastest growing areas for new and upscale restaurants in the city.</p>
-<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonag_zps890c7f10.jpg"></p>
+<p>{% img http://img.photobucket.com/albums/v204/juanchoruiz/blog/zonag_zps890c7f10.jpg %}</p>
 
 <p>Recommendations:</p>
 
