@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2017-03-21T23:17:29-07:00</updated>
+  <updated>2017-03-22T00:36:15-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -24,76 +24,116 @@
 <h2 id="installing-ruby">Installing Ruby</h2>
 <p>I was not able to install Ruby at first becuase Homebrew was not installing and required a separate installation. The sympthoms were:</p>
 
-<p>{% codeblock %}
-curl -L https://get.rvm.io | bash -s stable –ruby
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100   184  100   184    0     0    181      0  0:00:01  0:00:01 –:–:–   181
-100 22817  100 22817    0     0  16792      0  0:00:01  0:00:01 –:–:– 67706
-Downloading https://github.com/wayneeseguin/rvm/archive/1.26.10.tar.gz
-Downloading https://github.com/wayneeseguin/rvm/releases/download/1.26.10/1.26.10.tar.gz.asc
-Found PGP signature at: ‘https://github.com/wayneeseguin/rvm/releases/download/1.26.10/1.26.10.tar.gz.asc’,
-but no GPG software exists to validate it, skipping.</p>
-
-<p>Upgrading the RVM installation in /Users/jz/.rvm/
-    RVM PATH line found in /Users/jz/.mkshrc /Users/jz/.profile /Users/jz/.bashrc /Users/jz/.zshrc.
-    RVM sourcing line found in /Users/jz/.profile /Users/jz/.bash_profile /Users/jz/.zlogin.
-Upgrade of RVM in /Users/jz/.rvm/ is complete.</p>
-
-<h1 id="juan-camilo-ruiz">Juan Camilo Ruiz,</h1>
-<p>#
-#   Thank you for using RVM!
-#   We sincerely hope that RVM helps to make your life easier and more enjoyable!!!
-#
-# ~Wayne, Michal &amp; team.</p>
-
-<p>In case of problems: http://rvm.io/help and https://twitter.com/rvm_io</p>
-
-<p>Upgrade Notes:</p>
-
-<ul>
-  <li>No new notes to display.</li>
-</ul>
-
-<dl>
-  <dt>rvm 1.26.10 (latest) by Wayne E. Seguin <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#119;&#097;&#121;&#110;&#101;&#101;&#115;&#101;&#103;&#117;&#105;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#119;&#097;&#121;&#110;&#101;&#101;&#115;&#101;&#103;&#117;&#105;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>, Michal Papis <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#112;&#097;&#112;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#109;&#112;&#097;&#112;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a> [https://rvm.io/]</dt>
-  <dt>Searching for binary rubies, this might take some time.</dt>
-  <dt>No binary rubies available for: osx/10.10/x86_64/ruby-2.2.0.</dt>
-  <dt>Continuing with compilation. Please read ‘rvm help mount’ to get more information on binary rubies.</dt>
-  <dt>Checking requirements for osx.</dt>
-  <dt>About to install Homebrew, press <code>Enter</code> for default installation in <code>/usr/local</code>,</dt>
-  <dt>type new path if you wish custom Homebrew installation (the path needs to be writable for user)</dt>
-  <dd>Requirements installation failed with status: 1.
-{% endcodeblock %}</dd>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>curl -L https://get.rvm.io | bash -s stable –ruby
+</span><span class='line'>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+</span><span class='line'>                                 Dload  Upload   Total   Spent    Left  Speed
+</span><span class='line'>100   184  100   184    0     0    181      0  0:00:01  0:00:01 –:–:–   181
+</span><span class='line'>100 22817  100 22817    0     0  16792      0  0:00:01  0:00:01 –:–:– 67706
+</span><span class='line'>Downloading https://github.com/wayneeseguin/rvm/archive/1.26.10.tar.gz
+</span><span class='line'>Downloading https://github.com/wayneeseguin/rvm/releases/download/1.26.10/1.26.10.tar.gz.asc
+</span><span class='line'>Found PGP signature at: ‘https://github.com/wayneeseguin/rvm/releases/download/1.26.10/1.26.10.tar.gz.asc’,
+</span><span class='line'>but no GPG software exists to validate it, skipping.&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>Upgrading the RVM installation in /Users/jz/.rvm/
+</span><span class='line'>    RVM PATH line found in /Users/jz/.mkshrc /Users/jz/.profile /Users/jz/.bashrc /Users/jz/.zshrc.
+</span><span class='line'>    RVM sourcing line found in /Users/jz/.profile /Users/jz/.bash_profile /Users/jz/.zlogin.
+</span><span class='line'>Upgrade of RVM in /Users/jz/.rvm/ is complete.&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;h1 id="juan-camilo-ruiz">Juan Camilo Ruiz,&lt;/h1>
+</span><span class='line'>&lt;p>#
+</span><span class='line'>#   Thank you for using RVM!
+</span><span class='line'>#   We sincerely hope that RVM helps to make your life easier and more enjoyable!!!
+</span><span class='line'>#
+</span><span class='line'># ~Wayne, Michal &amp; team.&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>In case of problems: http://rvm.io/help and https://twitter.com/rvm_io&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>Upgrade Notes:&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;ul>
+</span><span class='line'>  &lt;li>No new notes to display.&lt;/li>
+</span><span class='line'>&lt;/ul>
+</span><span class='line'>
+</span><span class='line'>&lt;dl>
+</span><span class='line'>  &lt;dt>rvm 1.26.10 (latest) by Wayne E. Seguin &lt;a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#119;&#097;&#121;&#110;&#101;&#101;&#115;&#101;&#103;&#117;&#105;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#119;&#097;&#121;&#110;&#101;&#101;&#115;&#101;&#103;&#117;&#105;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;&lt;/a>, Michal Papis &lt;a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#112;&#097;&#112;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#109;&#112;&#097;&#112;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;&lt;/a> [https://rvm.io/]&lt;/dt>
+</span><span class='line'>  &lt;dt>Searching for binary rubies, this might take some time.&lt;/dt>
+</span><span class='line'>  &lt;dt>No binary rubies available for: osx/10.10/x86_64/ruby-2.2.0.&lt;/dt>
+</span><span class='line'>  &lt;dt>Continuing with compilation. Please read ‘rvm help mount’ to get more information on binary rubies.&lt;/dt>
+</span><span class='line'>  &lt;dt>Checking requirements for osx.&lt;/dt>
+</span><span class='line'>  &lt;dt>About to install Homebrew, press &lt;code>Enter&lt;/code> for default installation in &lt;code>/usr/local&lt;/code>,&lt;/dt>
+</span><span class='line'>  &lt;dt>type new path if you wish custom Homebrew installation (the path needs to be writable for user)&lt;/dt>
+</span><span class='line'>  &lt;dd>Requirements installation failed with status: 1.</span></code></pre></td></tr></table></div></figure></notextile></div></dd>
 </dl>
 
 <p>What gave me a more clear indication that something was missing was when I attempted to install Homebrew by itself
-{% codeblock %}
-ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
-ruby: no code specified for -e (RuntimeError)
-{% endcodeblock %}</p>
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+</span><span class='line'>ruby: no code specified for -e (RuntimeError)</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>With more digging around, I found this <a href="http://stackoverflow.com/questions/22776751/installing-rvm-requirements-installation-failed-with-status-1">post</a> at StackOverflow where basically explained it was because I never executed Xcode on this machine before, so I had to manually open it one time which kicked off the installation of additional components. Onces that finished I was able to install Homebrew and I executed brew doctor</p>
 
-<p>{% codeblock %}
-brew doctor
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>brew doctor</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>After that I hit another roadblock during the installation of Ruby 1.9.3
-{% codeblock %}
-rvm install ruby 1.9.3-p551
-…
-checking whether we are cross compiling… configure: error: in <code>/Users/jz/.rvm/src/ruby-1.9.3-p551':
-configure: error: cannot run C compiled programs.
-If you meant to cross compile, use </code>–host’.
-See `config.log’ for more details
-There has been an error while running configure. Halting the installation.
-{% endcodeblock %}</p>
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rvm install ruby 1.9.3-p551
+</span><span class='line'>…
+</span><span class='line'>checking whether we are cross compiling… configure: error: in &lt;code>/Users/jz/.rvm/src/ruby-1.9.3-p551':
+</span><span class='line'>configure: error: cannot run C compiled programs.
+</span><span class='line'>If you meant to cross compile, use &lt;/code>–host’.
+</span><span class='line'>See `config.log’ for more details
+</span><span class='line'>There has been an error while running configure. Halting the installation.</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Found the issue again and basically I needed to install more xcode dependencies. I did it by executing
-{% codeblock %}
-xcode-select –install
-{% endcodeblock %}</p>
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>xcode-select –install</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>After all of that I decided to upgrade the Ruby version used by Octopress to version 2.2.0. To do that I edit the version of ruby in the following files:</p>
 
