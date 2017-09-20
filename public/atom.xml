@@ -4,7 +4,7 @@
   <title><![CDATA[The Other Radio]]></title>
   <link href="http://jcruiz.co/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
-  <updated>2017-07-12T13:13:59-07:00</updated>
+  <updated>2017-09-19T21:35:50-07:00</updated>
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Colombia 4.0 - Hablemos De Product Management!]]></title>
+    <link href="http://jcruiz.co/blog/2017/09/19/colombia-4-dot-0-hablemos-de-product-management/"/>
+    <updated>2017-09-19T20:59:00-07:00</updated>
+    <id>http://jcruiz.co/blog/2017/09/19/colombia-4-dot-0-hablemos-de-product-management</id>
+    <content type="html"><![CDATA[<p><img src="http://www.col40.co/638/channels-541_brand.png" alt="" width="300px" /></p>
+
+<p>El próximo 21 de Septiembre, a las 11:30 am estaré realizando una presentación dentro del evento <a href="http://www.col40.co/638/w3-propertyvalue-15297.html">Colombia 4.0</a> lo cuál me llena de alegría el haber sido invitado a un evento en mi país, el presentar en conferencias algo que hace algún tiempo no hacía y aparte de eso poder compartir un tema que me apasiona mucho que es el arte del Product Management.</p>
+
+<p>En esta <a href="http://www.col40.co/638/w3-article-58948.html">presentación </a> miraremos el rol del product manager o gerente de producto dentro de las compañías del silicon valley y el papel del product manager detras de muchos de los productos y soluciones que vienen de starups. Veremos cómo el product manager gestiona la visión, establece la estrategia y se enfoca en la ejecución de la estragía. Cómo las compañías desarrollan un conocimiento de sus usuarios, del mercado y la receta entre las compañías que desarrollan productos exitosos vs las que aspiran lanzar productos exitosos. 
+<!--more--></p>
+
+<p>Al final veremos cómo en Colombia, un mercado que en el que existen cada día más emprendimientos, qué tipo de habilidades, competencias y características se necesitan para tener más profesionales en este campo y porque es importante tener más product managers a futuro.</p>
+
+<p>Espero me puedan acompañar y me encantaría entrar más en contacto con compañías que estén buscando ascesorías en producto y product management para el lanzamiento de soluciones SaaS. Durante el evento me pueden contactar vía twitter <a href="https://twitter.com/juanca">@juanca</a></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Using JIRA for Product Development Cycles Part 1]]></title>
