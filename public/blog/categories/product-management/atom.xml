@@ -4,7 +4,11 @@
   <title><![CDATA[Category: product management | The Other Radio]]></title>
   <link href="http://jcruiz.co/blog/categories/product-management/atom.xml" rel="self"/>
   <link href="http://jcruiz.co/"/>
+<<<<<<< HEAD
+  <updated>2017-03-22T00:40:45-07:00</updated>
+=======
   <updated>2017-09-19T21:35:53-07:00</updated>
+>>>>>>> staging
   <id>http://jcruiz.co/</id>
   <author>
     <name><![CDATA[Juan Camilo Ruiz]]></name>
@@ -14,6 +18,17 @@
 
   
   <entry>
+<<<<<<< HEAD
+    <title type="html"><![CDATA[Almost 2 years]]></title>
+    <link href="http://jcruiz.co/blog/2017/03/22/almost-2-years/"/>
+    <updated>2017-03-22T00:04:00-07:00</updated>
+    <id>http://jcruiz.co/blog/2017/03/22/almost-2-years</id>
+    <content type="html"><![CDATA[<p>It’s been almost two years since my last post on the blog. I’m in shock how fast the time goes by however, it’s great to come back and start writting again. Also it’s pretty amazing the number of things that I have learned since my last post.</p>
+
+<p>Over the last 2 years I’ve been working on a product called <a href="https://www.moovweb.com/solutions/moovcheckout/">MoovCheckout</a>. As a product manager I feel very fortunate to be part of the founding team that took the vision that checkouts could be productize and turned it into a real product offering that now serves hundreds of thousands checkout sessions and registers millions of dollars in transactions placed from a mobile device. I consider this product, a very special child of mine.
+<!--more-->
+During these time I’ve experienced many of the circumstances that founders face during early stages of a company, with the main difference that we didn’t require venture funding to kick off the project, but intead we have a parent company behind the journey of this product.</p>
+=======
     <title type="html"><![CDATA[Colombia 4.0 - Hablemos de Product Management!]]></title>
     <link href="http://jcruiz.co/blog/2017/09/19/colombia-4-dot-0-hablemos-de-product-management/"/>
     <updated>2017-09-19T20:59:00-07:00</updated>
@@ -28,6 +43,7 @@
 <p>Al final veremos cómo en Colombia, un mercado que en el que existen cada día más emprendimientos, qué tipo de habilidades, competencias y características se necesitan para tener más profesionales en este campo y porque es importante tener más product managers a futuro.</p>
 
 <p>Espero me puedan acompañar y me encantaría entrar más en contacto con compañías que estén buscando ascesorías en producto y product management para el lanzamiento de soluciones SaaS. Durante el evento me pueden contactar vía twitter <a href="https://twitter.com/juanca">@juanca</a></p>
+>>>>>>> staging
 
 ]]></content>
   </entry>
@@ -37,7 +53,7 @@
     <link href="http://jcruiz.co/blog/2015/08/25/using-jira-for-product-development-flows-part-1/"/>
     <updated>2015-08-25T00:01:00-07:00</updated>
     <id>http://jcruiz.co/blog/2015/08/25/using-jira-for-product-development-flows-part-1</id>
-    <content type="html"><![CDATA[<p><img src="https://www.atlassian.com/wac/software/jira/sectionWrap/0/column/0/imageBinary/jira_rbg_darkblue.svg" alt="" width="300px" /></p>
+    <content type="html"><![CDATA[<p><img src="http://img.photobucket.com/albums/v204/juanchoruiz/jira_zpsfqpqxd1w.jpeg" alt="" width="300px" /></p>
 
 <p><a href="https://www.atlassian.com/software/jira">JIRA</a> is a popular tool for managing software product projects. In my role as Product I’ve been an active user of this tool as well as <a href="https://trello.com/">Trello</a>, <a href="https://www.pivotaltracker.com/">Pivotal Tracker</a> among others in the last few years and, have found different ways that these tools can be used for organizing our product development cycles. </p>
 
