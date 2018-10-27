@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Using JIRA for Product Development Cycles Part 1 - The Other Radio</title>
+  <meta name="author" content="Juan Camilo Ruiz">
+
+  
+  <meta name="description" content="Using JIRA for Product Development Cycles Part 1 written Aug 25th, 2015 in product management JIRA is a popular tool for managing software product &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jcruiz.co/blog/2015/08/25/using-jira-for-product-development-flows-part-1">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="The Other Radio" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-44281567-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <script src="https://widget.battleforthenet.com/widget.js" async></script>
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Using JIRA for Product Development Cycles Part 1</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2015-08-25T00:01:00-07:00" pubdate data-updated="true">Aug 25<span>th</span>, 2015</time>
+          
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/product-management/'>product management</a>
+  
+</span>
+
+
+        </div>
+        <p><img src="https://www.atlassian.com/wac/software/jira/sectionWrap/0/column/0/imageBinary/jira_rbg_darkblue.svg" alt="" width="300px" /></p>
+
+<p><a href="https://www.atlassian.com/software/jira">JIRA</a> is a popular tool for managing software product projects. In my role as Product I’ve been an active user of this tool as well as <a href="https://trello.com/">Trello</a>, <a href="https://www.pivotaltracker.com/">Pivotal Tracker</a> among others in the last few years and, have found different ways that these tools can be used for organizing our product development cycles. </p>
+
+<p>The tools are only the channel used by the organization to have a central location where the engineering teams tracks product implementation tasks, level of effort, bugs and, escalations. At the same time, the Product team uses the tools to communicate current features that are implemented, prioritize new features, plan out new releases and even define product roadmaps.</p>
+
+<p>But as with any tool, if you don’t proactively maintain the information, it quickly becomes outdated and easily forgotten. In this article I would like to describe how I’ve use JIRA as a Product within the software development lifecycle.
+<!--more--></p>
+
+<h2 id="jira-projects">JIRA Projects</h2>
+
+<p>We created multiple JIRA projects for our product development that serve as layers or filters in which we would catalog all the different asks for the engineering team: from feature requests, to escalations, to bug fixes. We quickly understood that in order to maintain an organized engineering backlog, we needed to protected it at all cost. </p>
+
+<p>For that, the engineering leaders and product team took the responsibility to manage the following buckets as described below:</p>
+
+<h3 id="feature-requests---fr">Feature Requests - FR</h3>
+<p><strong>Owner:</strong> Product team</p>
+
+<p><strong>Purpose</strong>: The bucket where the product team receives and manages feature requests, enhancements, documentation issues, etc. After the product team evaluated and defined how to best address a given feature requests. We would either approve the feature request via a story or set of stories that go in the icebox or, we would decline the feature request.
+Although we used JIRA,  in reality this project could be managed with a simpler and more friendly tool like Trello. You can get created and use tools that are easy to use by all the parts of the organization.</p>
+
+<h3 id="icebox---ib">Icebox - IB</h3>
+<p><strong>Owner:</strong> Product/Engineering</p>
+
+<p><strong>Purpose:</strong> This project was used as a <a href="https://www.atlassian.com/agile/kanban">agile Kanban</a> board. Here,  product and engineering would place upcoming engineering work. Prior to sprint planning, each team made sure that the most important stories based on eachother’s priorities where registered and presented during sprint planning meeting. We had a dedicated column called (next sprint). Once the sprint backlog was defined we move all stories for the new sprint into the <strong>Active Sprint</strong> project.</p>
+
+<h3 id="active-sprint---as">Active Sprint - AS</h3>
+<p><strong>Owner:</strong> Product/Engineering</p>
+
+<p><strong>Purpose:</strong>  This project can be setup either as a <a href="https://www.atlassian.com/agile/scrum">Scrum board</a> or a Kanban board. It contains the engineering tasks for the current sprint. The team worked to have real expectaions and whatever was in the sprint would gotten finished on the sprint. This particularly is a great exercise to keep a good team morale.</p>
+
+<h3 id="escalations---esc">Escalations - ESC</h3>
+<p><strong>Owner:</strong> Product/Engineering leads</p>
+
+<p><strong>Purpose:</strong> The engineering team’s window to the outside world. A project used by everyone in the organization to register things that were “urgent” or that required attention from engineering. The product team and engineering leaders would triage the issues and requests. 
+As part of the triage the owner would either gather more information, or create an escalation that could go directly into the current sprint (AS project) to be addressed immediately or go into the icebox (IB) to be consider for a future sprint.</p>
+
+<h3 id="final-remarks">Final Remarks</h3>
+<p>Remember that JIRA allows you to do bulk changes, which come really handy when moving things from project to project. Also, keep common guidelines that help to maintain consistency across multiple JIRA projects. For example: same components set, common labels, notation, etc.</p>
+
+<p>And last but not least, <strong>purge your icebox</strong> often. It’s super easy to put things in but really hard to get them out. At the end everything will look as it’s important.</p>
+
+
+        <hr class="divider-short"/>
+        
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2015/02/28/getting-octopress-up-and-running-in-os-x-yosemite/" title="Previous Post: Getting Octopress Up and Running in OS X Yosemite">&laquo; Previous: Getting Octopress Up and Running in OS X Yosemite</a>
+        
+
+        
+          <a class="pull-right" href="/blog/2017/09/19/colombia-4-dot-0-hablemos-de-product-management/" title="Next Post: Colombia 4.0 - Hablemos de Product Management!">Next: Colombia 4.0 - Hablemos de Product Management! &raquo;</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="https://twitter.com/juanca"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/jcruiz"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+    <a href="https://linkedin.com/in/juancamiloruiz"><img src="/images/glyphicons_social_17_linked_in.png"/></a>
+    
+
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
