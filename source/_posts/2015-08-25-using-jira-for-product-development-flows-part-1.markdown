@@ -6,7 +6,7 @@ comments: true
 categories: [product management]
 ---
 
-![](http://img.photobucket.com/albums/v204/juanchoruiz/jira_zpsfqpqxd1w.jpeg){:width="300px"}
+![](https://www.atlassian.com/wac/software/jira/sectionWrap/0/column/0/imageBinary/jira_rbg_darkblue.svg){:width="300px"}
 
 [JIRA](https://www.atlassian.com/software/jira) is a popular tool for managing software product projects. In my role as Product I've been an active user of this tool as well as [Trello](https://trello.com/), [Pivotal Tracker](https://www.pivotaltracker.com/) among others in the last few years and, have found different ways that these tools can be used for organizing our product development cycles. 
 

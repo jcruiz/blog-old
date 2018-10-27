@@ -54,33 +54,6 @@
         <loc>
             http://jcruiz.co/blog/2015/08/25/using-jira-for-product-development-flows-part-1/
         </loc>
-<<<<<<< HEAD
-        <lastmod>2017-03-22T00:10:34-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jcruiz.co/blog/2017/03/22/almost-2-years/</loc>
-        <lastmod>2017-03-22T00:32:26-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jcruiz.co/archives/</loc>
-        <lastmod>2017-03-22T00:32:26-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jcruiz.co/blog/archives/</loc>
-        <lastmod>2017-03-22T00:32:26-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jcruiz.co/blog/</loc>
-        <lastmod>2017-03-22T00:32:26-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jcruiz.co/</loc>
-        <lastmod>2017-03-22T00:32:26-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jcruiz.co/posts/</loc>
-        <lastmod>2017-03-22T00:32:26-07:00</lastmod>
-=======
         <lastmod>2017-09-19T20:55:38-07:00</lastmod>
     </url>
     <url>
@@ -108,7 +81,6 @@
     <url>
         <loc>http://jcruiz.co/posts/</loc>
         <lastmod>2017-09-19T21:34:48-07:00</lastmod>
->>>>>>> staging
     </url>
     <url>
         <loc>http://jcruiz.co/robots.txt</loc>
